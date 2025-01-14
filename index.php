@@ -127,7 +127,7 @@
     <section id="home-slider">
         <div class="container">
             <div class="row">
-                <div class="main-slider">
+                <div class="main-slider"> 
                     <img src="./images/home/slider/Samo47.PNG" width="40%;" class="slider-sun" alt="slider image">
                     <div class="slide-text">
                         <h1>โครงการเลือกตั้ง<br>คณะกรรมการบริหารสโมสรนักศึกษาคณะวิทยาการจัดการ</h1>
@@ -162,7 +162,7 @@
                     
                     <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
                     <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image"> -->
-                    <img src="images/home/slider/voteindex.png" class="slider-hill" alt="slider image">
+                    <!-- <img src="images/home/slider/voteindex.png" class="slider-hill" alt="slider image"> -->
                     <!-- <img src="images/home/slider/samo.png" class="slider-house" alt="slider image"> -->
                     
                     <!-- <img src="images/home/slider/samo3.png" width=500px; class="slider-sun" alt="slider image"> -->
@@ -173,7 +173,7 @@
                 </div>
             </div>
         </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+        <!-- <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div> --> 
     </section><br>
     <!--/#home-slider-->
     <center>                        
