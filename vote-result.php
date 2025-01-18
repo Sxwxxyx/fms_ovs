@@ -78,7 +78,7 @@
                     </button>
 
                     <a class="navbar-brand" href="index.php">
-                        <h1><img src="images/logo_fms.png" alt="logo"></h1>
+                        <h1><img src="images/logo_fms1.png" alt="logo"></h1>
                     </a>
                     
                 </div>

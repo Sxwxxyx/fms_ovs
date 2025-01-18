@@ -79,7 +79,7 @@ $show_result = $setting->read_show_result();
                     </button>
 
                     <a class="navbar-brand" href="index.php">
-                        <h1><img src="images/logo_fms.png" alt="logo"></h1>
+                        <h1><img src="images/logo_fms1.png" alt="logo"></h1>
                     </a>
 
                 </div>
@@ -87,23 +87,23 @@ $show_result = $setting->read_show_result();
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="index.php">หน้าแรก</a></li>
                         <!--<?php
-                        if ($vote_status) { ?>
-                                <li><a href='sign-in.html'>เข้าสู่ระบบ</a></li>
-                            <?php } else { ?> 
-                                <li><a href='admin/sign-in_admin.html'>Admin</a></li>
-                            <?php }
-                        ?>-->
-                        <!--<?php
                         if ($show_result) {
                             echo "<li><a href='vote-result.php'>ผลการเลือกตั้ง</a></li>";
                         }
+                        ?>-->
+                        <!--<?php
+                        if ($vote_status) { ?>
+                            <li><a href='sign-in.html'>เข้าสู่ระบบ</a></li>
+                        <?php } else { ?> 
+                            <li><a href='admin/sign-in_admin.html'>Admin</a></li>
+                        <?php }
                         ?>-->
                         <?php
                         if (isset($_SESSION['std_id'])) { ?>
                             <li><a href="vote.php">ลงคะแนนโหวต</a></li>
                             <li class="dropdown"><a><?php echo $_SESSION['std_id']; ?> <i class="fas fa-angle-down"></i></a>
                                 <ul role="menu" class="sub-menu">
-                                    <li><a href="php/sign-out.php">Sign Out</a></li>
+                                    <li><a href="php/sign-out.php" >Sign Out</a></li>
                                 </ul>
                             </li>
                         <?php } elseif (isset($_SESSION['admin_std_id'])) { ?>
@@ -116,15 +116,15 @@ $show_result = $setting->read_show_result();
                                 </ul>
                             </li>
                         <?php } elseif ($vote_status & $show_result) { ?>
-                            <li><a href='sign-in.html'>เข้าสู่ระบบ</a></li>
                             <li><a href='vote-result.php'>ผลการเลือกตั้ง</a></li>
+                            <li><a href='sign-in.html' style="background-color: #000000; color: #fff; border: 1px solid #000000; border-radius: 10px; font-weight: 300; padding: 10px 25px;">เข้าสู่ระบบ</a></li>
                         <?php } elseif ($show_result) { ?>
                             <li><a href='vote-result.php'>ผลการเลือกตั้ง</a></li>
                             <li><a href='admin/sign-in_admin.html'>Admin</a></li>
                         <?php } elseif ($vote_status) { ?>
-                            <li><a href='sign-in.html'>เข้าสู่ระบบ</a></li>
+                            <li><a href='sign-sin.html' style="background-color: #000000; color: #fff; border: 1px solid #000000; border-radius: 10px; font-weight: 300; padding: 10px 25px;;">เข้าสู่ระบบ</a></li>
                         <?php } else { ?>
-                            <li><a href='admin/sign-in_admin.html'>Admin</a></li>
+                            <li><a href='admin/sign-in_admin.html' >Admin</a></li>
                         <?php }
                         ?>
                     </ul>
@@ -138,7 +138,7 @@ $show_result = $setting->read_show_result();
         <div class="container">
             <div class="row">
                 <div class="main-slider">
-                    <img src="./images/Samo48/4848.PNG" width="50%;" class="slider-sun" alt="slider image">
+                    <img src="./images/Samo48/48.PNG" width="50%;" class="slider-sun" alt="slider image">
                     <div class="slide-text">
                         <h1>โครงการเลือกตั้ง<br>คณะกรรมการบริหารสโมสรนักศึกษาคณะวิทยาการจัดการ</h1>
                         <p class="text-desc">ประจำปีการศึกษา 2568<br>
@@ -151,9 +151,9 @@ $show_result = $setting->read_show_result();
                         </h3>
                         <!--<?php
                         if ($vote_status) {
-                            echo "<a href='sign-in.html' class='btn btn-common2'>เข้าสู่ระบบ/Sign In</a>";
+                            echo "<a href='sign-in.html' class='btn btn-common2'>เข้าสู่ระบบ / Sign In</a>";
                         } else {
-                            echo "<a href='sign-in.html' class='btn btn-common2' disabled>เข้าสู่ระบบ/Sign In</a>";
+                            echo "<a href='sign-in.html' class='btn btn-common2' disabled>เข้าสู่ระบบ / Sign In</a>";
                         }
                         ?>-->
                         <?php
@@ -162,17 +162,17 @@ $show_result = $setting->read_show_result();
                         <?php } elseif (isset($_SESSION['admin_std_id'])) { ?>
 
                         <?php } elseif ($vote_status) { ?>
-                            <a href='sign-in.html' class='btn btn-common2'>เข้าสู่ระบบ/Sign In</a>
+                            <a href='sign-in.html' class='btn btn-common2'>เข้าสู่ระบบ / Sign In</a>
                         <?php } else { ?>
-                            <a href='sign-in.html' class='btn btn-common2' disabled>เข้าสู่ระบบ/Sign In</a>
+                            <a href='sign-in.html' class='btn btn-common2' disabled>เข้าสู่ระบบ / Sign In</a>
                         <?php }
                         ?>
                     </div>
-                    <img src="images\Samo48\election-voting-cartoon.jpg" class="slider-hill" alt="slider image">
+                    <!-- <img src="images\Samo48\election-voting-cartoon.jpg" class="slider-hill" alt="slider image"> -->
 
 
-                    <!-- <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image"> -->
-                    <!-- <img src="images/home/slider/house.png" class="slider-house" alt="slider image"> -->
+                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
+                    <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
 
                     <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
                     <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
@@ -214,15 +214,18 @@ $show_result = $setting->read_show_result();
             <div class="row">
                 <div class="col-sm-4 text-center">
                     <h2 class="title"><i class="fas fa-user-friends"></i> จำนวนผู้มีสิทธิ
-                        <?php echo number_format($voter->votercount()); ?> คน</h2>
+                        <?php echo number_format($voter->votercount()); ?> คน
+                    </h2>
                 </div>
                 <div class="col-sm-4 text-center">
                     <h2 class="title"><i class="fas fa-user-check"></i> จำนวนผู้มาใช้สิทธิ
-                        <?php echo number_format($vote_data->votecount()); ?> คน</h2>
+                        <?php echo number_format($vote_data->votecount()); ?> คน
+                    </h2>
                 </div>
                 <div class="col-sm-4 text-center">
                     <h2 class="title"><i class="fas fa-percentage"></i> ร้อยละผู้มาใช้สิทธิ
-                        <?php echo number_format(($vote_data->votecount() / $voter->votercount()) * 100, 2); ?></h2>
+                        <?php echo number_format(($vote_data->votecount() / $voter->votercount()) * 100, 2); ?>
+                    </h2>
                 </div>
             </div>
 
