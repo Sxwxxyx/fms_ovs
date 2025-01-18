@@ -62,7 +62,7 @@
                     </button>
 
                     <a class="navbar-brand" href="index.php">
-                        <h1><img src="images/logo_fms.png" alt="logo"></h1>
+                        <h1><img src="images/logo_fms1.png" alt="logo"></h1>
                     </a>
                     
                 </div>
@@ -88,7 +88,7 @@
                 <div class="row">
                     <div class="action">
                         <div class="col-sm-12">
-                            <h1 style="color :white" class="title">ลงคะแนนโหวต/Cast Your Vote</h1>
+                            <h1 style="color :white" class="title">ลงคะแนนโหวต</h1>
                             <p  style="color :yellow" class="title-desc" style="color:Red;" >ขณะนี้เวลา 
                                 <span id="clock"></span>
                                 <!-- เหลือเวลาลงคะแนนโหวต 8.00 ชม. -->

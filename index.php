@@ -88,7 +88,7 @@ $show_result = $setting->read_show_result();
                         <li class="active"><a href="index.php">หน้าแรก</a></li>
                         <!--<?php
                         if ($show_result) {
-                            echo "<li><a href='vote-result.php'>ผลการเลือกตั้ง</a></li>";
+                            echo "<li><a href='vote-result.php'>ผลการลงคะแนนเสียง</a></li>";
                         }
                         ?>-->
                         <!--<?php
@@ -107,7 +107,7 @@ $show_result = $setting->read_show_result();
                                 </ul>
                             </li>
                         <?php } elseif (isset($_SESSION['admin_std_id'])) { ?>
-                            <li><a href="vote-result.php">ผลการเลือกตั้ง</a></li>
+                            <li><a href="vote-result.php">ผลการลงคะแนนเสียง</a></li>
                             <li><a href="admin/admin_setting.php">แก้ไขสถานะ</a></li>
                             <li class="dropdown"><a><?php echo $_SESSION['admin_std_id']; ?> <i
                                         class="fa fa-angle-down"></i></a>
@@ -116,10 +116,10 @@ $show_result = $setting->read_show_result();
                                 </ul>
                             </li>
                         <?php } elseif ($vote_status & $show_result) { ?>
-                            <li><a href='vote-result.php'>ผลการเลือกตั้ง</a></li>
+                            <li><a href='vote-result.php'>ผลการลงคะแนนเสียง</a></li>
                             <li><a href='sign-in.html' style="background-color: #000000; color: #fff; border: 1px solid #000000; border-radius: 10px; font-weight: 300; padding: 10px 25px;">เข้าสู่ระบบ</a></li>
                         <?php } elseif ($show_result) { ?>
-                            <li><a href='vote-result.php'>ผลการเลือกตั้ง</a></li>
+                            <li><a href='vote-result.php'>ผลการลงคะแนนเสียง</a></li>
                             <li><a href='admin/sign-in_admin.html'>Admin</a></li>
                         <?php } elseif ($vote_status) { ?>
                             <li><a href='sign-sin.html' style="background-color: #000000; color: #fff; border: 1px solid #000000; border-radius: 10px; font-weight: 300; padding: 10px 25px;;">เข้าสู่ระบบ</a></li>

@@ -136,7 +136,7 @@
   }
 
   .padding-top{
-    padding-top: 50px;
+    padding-top: 40px;
   }
 
   .padding-right{
@@ -504,7 +504,7 @@ ul.sub-menu {
 
 .btn-submit {
   width: 100%;
-  background-color: #2f9697;
+  background-color: #000000;
   color: #fff;
   font-size: 14px;
   font-weight: 300;
@@ -512,7 +512,7 @@ ul.sub-menu {
   text-transform: uppercase;
   border-radius: 3px;
   margin-top: 5px;
-  border-bottom: 3px solid #2f9697;
+  border-bottom: 3px solid #000000;
   -webkit-box-shadow: none;
   box-shadow: none;
   padding: 10px;
@@ -520,7 +520,7 @@ ul.sub-menu {
 
 .btn-submit2 {
   width: 100%;
-  background-color: #c9f;
+  background-color: #89287f;
   color: #fff;
   font-size: 14px;
   font-weight: 300;
@@ -532,6 +532,13 @@ ul.sub-menu {
   -webkit-box-shadow: none;
   box-shadow: none;
   padding: 10px;
+}
+
+.btn-submit2:hover {
+  color: #fff;
+  background-color: #602d5b;
+  /* opacity: 7; */
+  /* transform: scale(1.05); */
 }
 
 .btn-submit:hover, 
@@ -574,7 +581,7 @@ ul.sub-menu {
 
 #home-slider .slide-text{
   position: absolute;
-  top: 100px;
+  top: 80px;
   left: 0;
   width: 450px;
 }
@@ -712,13 +719,19 @@ ul.sub-menu {
 }
 
 .action h1{
+  color: #fff;
   margin-top: 0;
+  display: flex;
+  justify-content: center; 
 }
 
 .action p{
+  color: #fff;
   font-size: 18px;
   margin-bottom: 0;
   font-weight: 300;
+  display: flex;
+  justify-content: center; 
 }
 
 .action .btn-common{
@@ -783,7 +796,7 @@ ul.sub-menu {
 
 #page-breadcrumb {
  
-  background-color: #c9f;
+  background-color: #89287F;
   background-repeat: repeat-x;
   height: 110px;
   background-position: center;
