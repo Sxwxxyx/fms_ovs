@@ -646,6 +646,38 @@ ul.sub-menu {
   animation: fadeInRight 500ms ease-in-out 1200ms both;
 }
 
+#home-slider .slider-vote1 {
+  position: absolute;
+  right: -60px;
+  bottom: 10px;
+}
+
+.animate-in .slider-vote1 {
+  -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
+  animation: bounceInDown 1000ms ease-in-out 200ms both;
+}
+
+#home-slider .slider-vote2 {
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+}
+
+.animate-in .slider-vote2 {
+  -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
+  animation: bounceInDown 1000ms ease-in-out 200ms both;
+}
+
+#home-slider .slider-vote3 {
+  position: absolute;
+  right: -30px;
+  bottom: 10px;
+}
+
+.animate-in .slider-vote3 {
+  -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
+  animation: bounceInDown 1000ms ease-in-out 200ms both;
+}
 
 #home-slider h1{
   margin-top: 100px;

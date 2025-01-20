@@ -168,21 +168,22 @@ $show_result = $setting->read_show_result();
                         <?php }
                         ?>
                     </div>
-                    <!-- <img src="images\Samo48\election-voting-cartoon.jpg" class="slider-hill" alt="slider image"> -->
 
+                    <!-- <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image"> -->
+                    <!-- <img src="images/home/slider/house.png" class="slider-house" alt="slider image"> -->
 
-                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
-                    <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
-
-                    <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-                    <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+                    <!-- <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image"> -->
+                    <!-- <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image"> -->
                     <!-- <img src="images/home/slider/voteindex.png" class="slider-hill" alt="slider image"> -->
                     <!-- <img src="images/home/slider/samo.png" class="slider-house" alt="slider image"> -->
 
-                    <!-- <img src="images/home/slider/samo3.png" width=500px; class="slider-sun" alt="slider image"> -->
                     <!-- <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image"> -->
                     <!-- <img src="images/home/slider/43.png" class="slider-birds2" alt="slider image"> -->
                     <!-- <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">  -->
+<!-- 
+                    <img src="images/home/slider/vote1.png" class="slider-vote1" alt="slider image">
+                    <img src="images/home/slider/vote2.png" class="slider-vote2" alt="slider image">
+                    <img src="images/home/slider/vote3.png" class="slider-vote3" alt="slider image"> -->
 
                 </div>
             </div>
@@ -197,7 +198,7 @@ $show_result = $setting->read_show_result();
                     <div class="row">
                         <div class="action">
                             <div class="col-sm-12">
-                                <h1 class="title">สถิติผู้เข้าร่วมลงคะแนนโหวต</h1>
+                                <h1 class="title" style="color : #000000">สถิติผู้เข้าร่วมลงคะแนนโหวต</h1>
                                 <p class="title-desc">
                                 </p>
                             </div>
