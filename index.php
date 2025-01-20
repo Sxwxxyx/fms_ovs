@@ -168,6 +168,15 @@ $show_result = $setting->read_show_result();
                         <?php }
                         ?>
                     </div>
+                     
+
+                    
+                    <img src="images\8.png" class="slider-hill" alt="slider image"> 
+                    
+                    <img src="images\9.png" class="Mord" style="position: absolute; right: -160px; bottom: 340px; width: 300px; height: auto;" alt="Mord image">
+                    
+                    <img src="images\รับรอง.png" class="Mord" style="position: absolute; right: 900px; bottom: 400px; width: 200px; height: auto;" alt="Mord image">
+
 
                     <!-- <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image"> -->
                     <!-- <img src="images/home/slider/house.png" class="slider-house" alt="slider image"> -->
@@ -180,10 +189,11 @@ $show_result = $setting->read_show_result();
                     <!-- <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image"> -->
                     <!-- <img src="images/home/slider/43.png" class="slider-birds2" alt="slider image"> -->
                     <!-- <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">  -->
-<!-- 
-                    <img src="images/home/slider/vote1.png" class="slider-vote1" alt="slider image">
-                    <img src="images/home/slider/vote2.png" class="slider-vote2" alt="slider image">
-                    <img src="images/home/slider/vote3.png" class="slider-vote3" alt="slider image"> -->
+
+                    <!-- <img src="images/home/slider/vote1.png" class="slider-vote1" alt="slider image"> -->
+                    <!-- <img src="images/home/slider/vote2.png" class="slider-vote2" alt="slider image"> -->
+                    <!-- <img src="images/home/slider/vote3.png" class="slider-vote3" alt="slider image"> -->
+
 
                 </div>
             </div>
