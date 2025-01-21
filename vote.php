@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 if (!isset($_SESSION['std_id'])) {
     header("Location: index.php");
 }
@@ -304,158 +303,199 @@ if (!isset($_SESSION['std_id'])) {
                 <button class="arrow right" onclick="moveSlide(1)">&#8250;</button>
             </div>
         </div>
-
         <div class="vote">
+            <!-- รูปที่ 1 -->
             <div class="col-sm-4 portfolio-item branded logos">
                 <div class="portfolio-wrapper">
                     <div class="portfolio-single">
                         <div class="portfolio-thumb logo-image">
-                            <i class="fa fa-circle-o" id="check-candidate-1"
-                                style="position: absolute; right: -160px; bottom: -120px;  height: auto; font-size: 220px;"></i>
-                            <img href="#" id="btn-vote-1" src="images\Samo48\vote\1.png" class="img-responsive" alt="">
+                            <img id="btn-vote-1" src="images/Samo48/vote/1.png" class="img-responsive" alt=""
+                                onclick="toggleImage(this, 'images/Samo48/vote/1.png', 'images/Samo48/vote/1.2.png', '1')">
                         </div>
-                    </div>
-                    <div class="portfolio-info text-center">
-
                     </div>
                 </div>
             </div>
+
+            <!-- รูปที่ 2 -->
             <div class="col-sm-4 portfolio-item mockup folio">
                 <div class="portfolio-wrapper">
                     <div class="portfolio-single">
                         <div class="portfolio-thumb logo-image">
-                            <i class="fa fa-circle-o" id="check-candidate-2"
-                                style="position: absolute; right: -160px; bottom: -120px;  height: auto; font-size: 220px;"></i>
-                            <img href="#" src="images\Samo48\vote\2.png" class="img-responsive" id="btn-vote-2" alt="">
+                            <img id="btn-vote-2" src="images/Samo48/vote/2.png" class="img-responsive" alt=""
+                                onclick="toggleImage(this, 'images/Samo48/vote/2.png', 'images/Samo48/vote/2.2.png', '2')">
                         </div>
-                    </div>
-                    <div class="portfolio-info text-center">
-
                     </div>
                 </div>
             </div>
+
+
+            <!-- รูปที่ 3 -->
             <div class="col-sm-4 portfolio-item mockup folio">
                 <div class="portfolio-wrapper">
                     <div class="portfolio-single">
                         <div class="portfolio-thumb logo-image">
-                            <i class="fa fa-circle-o" id="check-candidate-3"
-                                style="position: absolute; right: -160px; bottom: -120px;  height: auto; font-size: 220px;"></i>
-                            <img href="#" src="images\Samo48\vote\3.png" class="img-responsive" id="select-none" alt="">
+                            <img id="btn-vote-3" src="images/Samo48/vote/3.png" class="img-responsive" alt=""
+                                onclick="toggleImage(this, 'images/Samo48/vote/3.png', 'images/Samo48/vote/3.2.png', '3')">
                         </div>
                     </div>
-                    <div class="portfolio-info text-center">
-
-                    </div>
                 </div>
             </div>
         </div>
 
-        </div>
-        </div>
-    </section>
-    <!--/#portfolio-->
+        <script>
+            let selectedImage = null; // ตัวแปรสำหรับภาพที่เลือก
+            let selectedVote = ""; // ID ของภาพที่เลือก
 
-    <section id="submit-vote">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4 text-center">
-                    <form id="submit-vote-form" name="submit-vote-form" method="post" action="vote_op.php"
-                        onSubmit="return confirm('ยืนยันการลงคะแนนใช่หรือไม่') ">
-                        <input type="hidden" id="txt-vote" name="txt-vote">
-                        <div class="form-group">
-                            <input type="submit" name="submit" class="btn btn-submit" value="ยืนยันการลงคะแนน">
-                        </div>
-                    </form>
+            // ฟังก์ชันสำหรับการเปลี่ยนแปลงรูปภาพ
+            function toggleImage(element, defaultSrc, selectedSrc, voteId) {
+                const submitButton = document.querySelector(".btn-submit");
+                const txtVoteInput = document.getElementById("txt-vote");
+               
+                // หากคลิกซ้ำที่รูปภาพเดิม -> ยกเลิกการเลือก
+                if (element.src.indexOf(selectedSrc) > -1) {
+                    element.src = defaultSrc; // กลับไปยังรูปเดิม
+                    selectedImage = null; // รีเซ็ตการเลือก
+                    selectedVote = ""; // รีเซ็ตค่าโหวต
+                    txtVoteInput.value = ""; // ลบค่าที่จะส่ง
+                    submitButton.disabled = true; // ปิดปุ่ม
+                    return;
+                }
 
-                </div>
-                <div class="col-sm-4"></div>
-            </div>
-        </div>
-    </section>
+                // รีเซ็ตภาพก่อนหน้าถ้ามี
+                if (selectedImage !== null) {
+                    selectedImage.src = selectedImage.src.replace(".2.png", ".png");
+                }
 
-    <footer id="footer2">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="copyright-text text-center">
-                        <p>&copy; <a href="https://www.fms.psu.ac.th/">FMS@PSU</a> 2020. All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--/#footer-->
+                // ตั้งค่ารูปใหม่ที่เลือก
+                element.src = selectedSrc;
+                selectedImage = element;
+                selectedVote = voteId;
+                txtVoteInput.value = selectedVote;
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script>
-        var myVar = setInterval(function () {
-            myTimer();
-        }, 1000);
 
-        function myTimer() {
-            var d = new Date();
-            document.getElementById("clock").innerHTML = d.toLocaleTimeString();
-        }
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('#check-candidate-1').hide();
-            $('#check-candidate-2').hide();
-            $('#check-candidate-3').hide();
-            $('#txt-vote').val("");
-            $('input[type="submit"]').prop("disabled", true);
-        });
-        $("#btn-vote-1").click(function () {
-            $('#check-candidate-1').show();
-            $('#check-candidate-2').hide();
-            $('#check-candidate-3').hide();
-            $('#txt-vote').val("1");
-            $('input[type="submit"]').prop("disabled", false);
-        });
-        $("#btn-vote-2").click(function () {
-            $('#check-candidate-2').show();
-            $('#check-candidate-1').hide();
-            $('#check-candidate-3').hide();
-            $('#txt-vote').val("2");
-            $('input[type="submit"]').prop("disabled", false);
-        });
-        $('#select-none').click(function () {
-            $('#check-candidate-3').show();
-            $('#check-candidate-1').hide();
-            $('#check-candidate-2').hide();
-            $('#txt-vote').val("0");
-            $('input[type="submit"]').prop("disabled", false);
-        });
-    </script>
-    <script>
-        let currentIndex = 0; // ตำแหน่งเริ่มต้น
-        const slider = document.getElementById("slider");
-        const images = slider.querySelectorAll("img");
-        const totalImages = images.length;
-        const imageWidth = 210; // ความกว้างรูปภาพรวม margin (200px + 10px)
+                // เปิดใช้งานปุ่มเมื่อมีการเลือกภาพที่ไม่ใช่ค่าเริ่มต้น
+                if (selectedVote !== "") {
+                    submitButton.disabled = false;
+                }
+            }
+        </script>
 
-        function moveSlide(direction) {
-            // คำนวณตำแหน่งใหม่
-            currentIndex += direction;
-
-            // ตรวจสอบขอบเขต (loop ถ้าต้องการ)
-            if (currentIndex < 0) {
-                currentIndex = 0;  // หยุดที่รูปแรก
-            } else if (currentIndex >= totalImages) {
-                currentIndex = totalImages - 1;  // หยุดที่รูปสุดท้าย
+        <style>
+            .portfolio-thumb img {
+                cursor: pointer;
+                transition: opacity 0.3s ease;
             }
 
-            // อัปเดตการเลื่อน
-            slider.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
-        }
+            /* ปุ่มที่ปิดใช้งาน */
+            .btn-submit:disabled {
+                background-color: #ccc;
+                cursor: not-allowed;
+            }
+        </style>
 
-    </script>
+        <section id="submit-vote">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 text-center">
+                        <form id="submit-vote-form" name="submit-vote-form" method="post" action="vote_op.php"
+                            onSubmit="return confirm('ยืนยันการลงคะแนนใช่หรือไม่')">
+                            <input type="hidden" id="txt-vote" name="txt-vote">
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-submit" value="ยืนยันการลงคะแนน"
+                                    disabled>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer id="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="copyright-text text-center">
+                            <p>&copy; <a href="https://www.fms.psu.ac.th/">FMS@PSU</a> 2020. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/#footer-->
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script>
+            var myVar = setInterval(function () {
+                myTimer();
+            }, 1000);
+
+            function myTimer() {
+                var d = new Date();
+                document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+            }
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('#check-candidate-1').hide();
+                $('#check-candidate-2').hide();
+                $('#check-candidate-3').hide();
+                $('#txt-vote').val("");
+                $('input[type="submit"]').prop("disabled", true);
+            });
+            $("#btn-vote-1").click(function () {
+                $('#check-candidate-1').show();
+                $('#check-candidate-2').hide();
+                $('#check-candidate-3').hide();
+                $('#txt-vote').val("1");
+                $('input[type="submit"]').prop("disabled", false);
+            });
+            $("#btn-vote-2").click(function () {
+                $('#check-candidate-2').show();
+                $('#check-candidate-1').hide();
+                $('#check-candidate-3').hide();
+                $('#txt-vote').val("2");
+                $('input[type="submit"]').prop("disabled", false);
+            });
+            $('#select-none').click(function () {
+                $('#check-candidate-3').show();
+                $('#check-candidate-1').hide();
+                $('#check-candidate-2').hide();
+                $('#txt-vote').val("0");
+                $('input[type="submit"]').prop("disabled", false);
+            });
+        </script>
+        <script>
+            let currentIndex = 0; // ตำแหน่งเริ่มต้น
+            const slider = document.getElementById("slider");
+            const images = slider.querySelectorAll("img");
+            const totalImages = images.length;
+            const imageWidth = 210; // ความกว้างรูปภาพรวม margin (200px + 10px)
+
+            function moveSlide(direction) {
+                // คำนวณตำแหน่งใหม่
+                currentIndex += direction;
+
+                // ตรวจสอบขอบเขต (loop ถ้าต้องการ)
+                if (currentIndex < 0) {
+                    currentIndex = 0;  // หยุดที่รูปแรก
+                } else if (currentIndex >= totalImages) {
+                    currentIndex = totalImages - 1;  // หยุดที่รูปสุดท้าย
+                }
+
+                // อัปเดตการเลื่อน
+                slider.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
+            }
+
+        </script>
 </body>
 
 </html>

@@ -127,7 +127,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb logo-image">
-                                    <img src="images/Samo48/vote/1.png" class="img-responsive" alt="">
+                                    <img src="images/Samo48/vote/1.2.png" class="img-responsive" alt="">
                                
                                         <h2 class="title"><i class="fas fa-poll"></i>  <?php echo number_format($vote_data->candidatecount(1)); ?> คะแนน</h2>
                                     
@@ -139,7 +139,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb logo-image">
-                                    <img src="images/Samo48/vote/2.png" class="img-responsive" alt="">
+                                    <img src="images/Samo48/vote/2.2.png" class="img-responsive" alt="">
                                  
                                         <h2 class="title"><i class="fas fa-poll"></i> <?php echo number_format($vote_data->candidatecount(2)); ?> คะแนน</h2>
                                   
@@ -152,7 +152,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb logo-image">
-                                    <img src="images/Samo48/vote/3.png" class="img-responsive" alt="">
+                                    <img src="images/Samo48/vote/3.2.png" class="img-responsive" alt="">
                                
                                         <h2 class="title"><i class="fas fa-poll"></i>  <?php echo number_format($vote_data->candidatecount(0)); ?> คน</h2>
                           
