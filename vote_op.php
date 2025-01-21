@@ -30,11 +30,11 @@
 
             if ($voter->update_vstatus()) {
                 //clear session
-                unset($_SESSION['std_id']);
-                unset($_SESSION['std_name']);
-                session_destroy();
+                // unset($_SESSION['std_id']);
+                // unset($_SESSION['std_name']);
+                // session_destroy();
                 //redirect to vote-done.html
-                header("Location: vote-done.html");
+                header("Location: vote-done.php");
             }
 
         } else {
@@ -56,11 +56,11 @@
 
             if ($voter->update_vstatus()) {
                 //clear session
-                unset($_SESSION['std_id']);
-                unset($_SESSION['std_name']);
-                session_destroy();
+                // unset($_SESSION['std_id']);
+                // unset($_SESSION['std_name']);
+                // session_destroy();
                 //redirect to vote-done.html
-                header("Location: vote-done.html");
+                header("Location: vote-done.php");
             }
 
         } else {

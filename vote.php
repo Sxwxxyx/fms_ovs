@@ -195,8 +195,8 @@ if (!isset($_SESSION['std_id'])) {
             <div class="row" style="padding=20px">
                 <!-- name Samo -->
                 <h1
-                style="background-color: #89287f; color: white; text-align: center; line-height: 1.5; padding: 10px; font-weight: bold;">
-    The Unity of Concord</h1>
+                    style="background-color: #89287f; color: white; text-align: center; line-height: 1.5; padding: 10px; font-weight: bold;">
+                    The Unity of Concord</h1>
                 <div class="election" style="display: flex; justify-content: flex-start; gap: 30px;">
                     <!-- logo Samo -->
                     <img src="images\Samo48\logo.png" style="width: 450px; height: 450px; " class="img-responsive"
@@ -207,115 +207,149 @@ if (!isset($_SESSION['std_id'])) {
                             <div align="left">
                                 <label style="font-size: 18px;">ความหมายสัญลักษณ์</label>
                                 <div class="scrollable-box">
-                                            <p style="font-weight: bold;">The Unity of Concord</p>
-                                            <p>The Unity of Concord &nbsp;:&nbsp;  สะท้อนถึงความสำคัญของการรวมตัวเป็นหนึ่งเดียวกันในหมู่คณะเพื่อสร้างความร่วมมือที่มีประสิทธิภาพในการดำเนินกิจกรรมหรือโครงการต่างๆ เพื่อประโยชน์ส่วนรวม</p>
-                                            Unity คือความสามัคคี ซึ่งหมายถึงความสัมพันธ์ที่ทุกคนในหมู่คณะมีเป้าหมายร่วมกันเพื่อประโยชน์ส่วนรวมและเป็นการรวมตัวของบุคคลที่มีความหลากหลาย แต่สามารถทำงานร่วมกันเพื่อบรรลุเป้าหมายที่วางไว้ ซึ่งความสามัคคีเป็นรากฐานสำคัญของการสร้างความสำเร็จในงานต่างๆ</p>
-                                            <p>The Unity of Concord แสดงให้เห็นถึงความเป็นเอกภาพ ความร่วมมือ และความสัมพันธ์อันดีในหมู่คณะโดยส่งเสริมบรรยากาศการทำงาน สร้างสังคมแห่งการเรียนรู้ และพัฒนาเพื่อบรรลุเป้าหมายร่วมกัน ดังนั้น The Unity of Concord จึงเป็นหลักการพื้นฐานที่จะช่วยสร้างความสัมพันธ์อันดีและความสำเร็จในทุกด้านตัวเรือนั้นเกิดจากการผสมผสานระหว่างตัวอักษร  F M และ S โดย </p>
-                                            <p>F&nbsp;:&nbsp;ส่วนใบเรือจรดท้องเรือ ซึ่งใบเรือมีหน้าที่ โดยอุ้มลมเพื่อขับเคลื่อนและนำพาเรือไปข้างหน้า เปรียบเสมือนพลังที่จะนำพาคณะวิทยาการจัดการไปข้างหน้าจนกระทั่งถึงจุดหมาย </p>
-                                            <p>M&nbsp;:&nbsp;โครงสร้างกลางเรือ ซึ่งเป็นหัวใจสำคัญที่จะช่วยค้ำจุนเรือไว้ เปรียบเสมือนความตั้งใจและมุ่งมั่นที่จะช่วยให้สมาชิกทุกคนยืนหยัดและก้าวไกลไปพร้อมกันด้วยความสามัคคี</p>
-                                            <p>S&nbsp;:&nbsp;หัวสิงห์ สิงห์มักถูกใช้เป็นสัญลักษณ์ ของความเป็นผู้นำ ความกล้าหาญ และความแข็งแกร่ง โดยหัวสิงห์นั้นได้ชี้ไปยังทิศทางที่เรือกำลังมุ่งไปข้างหน้า แสดงถึงวิสัยทัศน์และความเด็ดเดี่ยวที่พร้อมฟ่าฟันอุปสรรค ซึ่งดาว 9 ดวงเปรียบเสมือน 9 สาขาของคณะวิทยาการจัดการที่ลอยทำหน้าที่ส่องแสงชี้นำทางให้แก่สิงห์สำเภา และเรือสีม่วงแสดงให้เห็นถึงจิตวิญญาณของคณะวิทยาการจัดการที่มีความมั่นคง แข็งแกร่ง พร้อมเผชิญกับสถานการณ์ทุกรูปแบบ</p>
-                                        
-                                        <label style="font-size: 18px;">วิสัยทัศน์ของพรรค</label>
-                                        <div style="font-size: 16px;">
-                                            <p>สร้างสรรค์สิ่งใหม่บนรากฐานความหลากหลายที่มีเอกลักษณ์แตกต่างกันเพื่อก้าวสู่ความสำเร็จอย่างยั่งยืน</p>
-                                        </div>
+                                    <p style="font-weight: bold;">The Unity of Concord</p>
+                                    <p>The Unity of Concord &nbsp;:&nbsp;
+                                        สะท้อนถึงความสำคัญของการรวมตัวเป็นหนึ่งเดียวกันในหมู่คณะเพื่อสร้างความร่วมมือที่มีประสิทธิภาพในการดำเนินกิจกรรมหรือโครงการต่างๆ
+                                        เพื่อประโยชน์ส่วนรวม</p>
+                                    Unity คือความสามัคคี
+                                    ซึ่งหมายถึงความสัมพันธ์ที่ทุกคนในหมู่คณะมีเป้าหมายร่วมกันเพื่อประโยชน์ส่วนรวมและเป็นการรวมตัวของบุคคลที่มีความหลากหลาย
+                                    แต่สามารถทำงานร่วมกันเพื่อบรรลุเป้าหมายที่วางไว้
+                                    ซึ่งความสามัคคีเป็นรากฐานสำคัญของการสร้างความสำเร็จในงานต่างๆ</p>
+                                    <p>The Unity of Concord แสดงให้เห็นถึงความเป็นเอกภาพ ความร่วมมือ
+                                        และความสัมพันธ์อันดีในหมู่คณะโดยส่งเสริมบรรยากาศการทำงาน
+                                        สร้างสังคมแห่งการเรียนรู้ และพัฒนาเพื่อบรรลุเป้าหมายร่วมกัน ดังนั้น The Unity of
+                                        Concord
+                                        จึงเป็นหลักการพื้นฐานที่จะช่วยสร้างความสัมพันธ์อันดีและความสำเร็จในทุกด้านตัวเรือนั้นเกิดจากการผสมผสานระหว่างตัวอักษร
+                                        F M และ S โดย </p>
+                                    <p>F&nbsp;:&nbsp;ส่วนใบเรือจรดท้องเรือ ซึ่งใบเรือมีหน้าที่
+                                        โดยอุ้มลมเพื่อขับเคลื่อนและนำพาเรือไปข้างหน้า
+                                        เปรียบเสมือนพลังที่จะนำพาคณะวิทยาการจัดการไปข้างหน้าจนกระทั่งถึงจุดหมาย </p>
+                                    <p>M&nbsp;:&nbsp;โครงสร้างกลางเรือ ซึ่งเป็นหัวใจสำคัญที่จะช่วยค้ำจุนเรือไว้
+                                        เปรียบเสมือนความตั้งใจและมุ่งมั่นที่จะช่วยให้สมาชิกทุกคนยืนหยัดและก้าวไกลไปพร้อมกันด้วยความสามัคคี
+                                    </p>
+                                    <p>S&nbsp;:&nbsp;หัวสิงห์ สิงห์มักถูกใช้เป็นสัญลักษณ์ ของความเป็นผู้นำ ความกล้าหาญ
+                                        และความแข็งแกร่ง โดยหัวสิงห์นั้นได้ชี้ไปยังทิศทางที่เรือกำลังมุ่งไปข้างหน้า
+                                        แสดงถึงวิสัยทัศน์และความเด็ดเดี่ยวที่พร้อมฟ่าฟันอุปสรรค ซึ่งดาว 9
+                                        ดวงเปรียบเสมือน 9
+                                        สาขาของคณะวิทยาการจัดการที่ลอยทำหน้าที่ส่องแสงชี้นำทางให้แก่สิงห์สำเภา
+                                        และเรือสีม่วงแสดงให้เห็นถึงจิตวิญญาณของคณะวิทยาการจัดการที่มีความมั่นคง
+                                        แข็งแกร่ง พร้อมเผชิญกับสถานการณ์ทุกรูปแบบ</p>
 
-                                        <label style="font-size: 18px;">พันธกิจของพรรค</label>
-                                        <div style="font-size: 16px;">
-                                            <p>1.บูรณาการเสริมสร้างองค์ความรู้และพัฒนาเพื่อยกระดับทักษะด้านวิชาชีพรวมถึงกิจกรรมต่างๆ</p>
-                                            <p>2.มุ่งเน้นการสร้างสังคมที่มีความเป็นหนึ่งเดียวจากความหลากหลายและการเคารพสิทธิเพื่อการอยู่ร่วมกันอย่างสันติ</p>
-                                            <p>3.เปิดโอกาสในการแสดงศักยภาพและความสามารถในทุกด้านเพื่อพัฒนาทรัพยากรบุคคลให้เกิดประโยชน์สูงสุด</p>
-                                        </div>
-                                        
-                                        <label style="font-size: 18px;">นโยบายของพรรค</label>
-                                        <div style="font-size: 16px;">
-                                            <p>1.ยกระดับโครงการเดิมและพัฒนาโครงการใหม่เพื่อปรับเปลี่ยนรูปแบบและแนวคิดให้ทีความเหมาะสมกับยุคสมัยมากยิ่งขึ้น</p>
-                                            <p>2.สร้างเครือข่ายชุมชนและองค์กรที่มุ่งเน้นความหลากหลายและการอยู่ร่วมกันอย่างสันติจัดกิจกรรมเสริมสร้างความเข้าใจในวัฒนธรรมที่หลากหลาย</p>
-                                            <p>3.ส่งเสริมกิจกรรมด้านกีฬาเพื่อเสริมสร้างสุขภาพและสร้างความสัมพันธ์ภายในคณะ</p>
-                                            <p>4.สร้างพื้นที่ในการแสดงความคิดเห็นและข้อเสนอแนะเพื่อนำมาพัฒนาโครงการให้เกิดประโยชน์สูงสุดแก่นักศึกษา</p>
-                                        </div>
-
- 
+                                    <label style="font-size: 18px;">วิสัยทัศน์ของพรรค</label>
+                                    <div style="font-size: 16px;">
+                                        <p>สร้างสรรค์สิ่งใหม่บนรากฐานความหลากหลายที่มีเอกลักษณ์แตกต่างกันเพื่อก้าวสู่ความสำเร็จอย่างยั่งยืน
+                                        </p>
                                     </div>
+
+                                    <label style="font-size: 18px;">พันธกิจของพรรค</label>
+                                    <div style="font-size: 16px;">
+                                        <p>1.
+                                            บูรณาการเสริมสร้างองค์ความรู้และพัฒนาเพื่อยกระดับทักษะด้านวิชาชีพรวมถึงกิจกรรมต่างๆ
+                                        </p>
+                                        <p>2.
+                                            มุ่งเน้นการสร้างสังคมที่มีความเป็นหนึ่งเดียวจากความหลากหลายและการเคารพสิทธิเพื่อการอยู่ร่วมกันอย่างสันติ
+                                        </p>
+                                        <p>3.
+                                            เปิดโอกาสในการแสดงศักยภาพและความสามารถในทุกด้านเพื่อพัฒนาทรัพยากรบุคคลให้เกิดประโยชน์สูงสุด
+                                        </p>
+                                    </div>
+
+                                    <label style="font-size: 18px;">นโยบายของพรรค</label>
+                                    <div style="font-size: 16px;">
+                                        <p>1.
+                                            ยกระดับโครงการเดิมและพัฒนาโครงการใหม่เพื่อปรับเปลี่ยนรูปแบบและแนวคิดให้ทีความเหมาะสมกับยุคสมัยมากยิ่งขึ้น
+                                        </p>
+                                        <p>2.
+                                            สร้างเครือข่ายชุมชนและองค์กรที่มุ่งเน้นความหลากหลายและการอยู่ร่วมกันอย่างสันติจัดกิจกรรมเสริมสร้างความเข้าใจในวัฒนธรรมที่หลากหลาย
+                                        </p>
+                                        <p>3. ส่งเสริมกิจกรรมด้านกีฬาเพื่อเสริมสร้างสุขภาพและสร้างความสัมพันธ์ภายในคณะ
+                                        </p>
+                                        <p>4.
+                                            สร้างพื้นที่ในการแสดงความคิดเห็นและข้อเสนอแนะเพื่อนำมาพัฒนาโครงการให้เกิดประโยชน์สูงสุดแก่นักศึกษา
+                                        </p>
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                     
-                <div class="slider-container">
-                    <button class="arrow left" onclick="moveSlide(-1)">&#8249;</button>
-                    <div class="slider" id="slider">
-                        <img src="images/Samo48/member/1.png" alt="member 1">
-                        <img src="images/Samo48/member/2.png" alt="member 2">
-                        <img src="images/Samo48/member/3.png" alt="member 3">
-                        <img src="images/Samo48/member/4.png" alt="member 4">
-                        <img src="images/Samo48/member/5.png" alt="member 5">
-                        <img src="images/Samo48/member/6.png" alt="member 6">
-                        <img src="images/Samo48/member/7.png" alt="member 7">
-                        <img src="images/Samo48/member/8.jpg" alt="member 8">
-                        <img src="images/Samo48/member/9.png" alt="member 9">
-                        <img src="images/Samo48/member/10.png" alt="member 10">
-                        <img src="images/Samo48/member/11.png" alt="member 11">
-                        <img src="images/Samo48/member/12.png" alt="member 12">
-                        <img src="images/Samo48/member/13.jpg" alt="member 13">
-                        <img src="images/Samo48/member/14.jpg" alt="member 14">
-                        <img src="images/Samo48/member/15.png" alt="member 15">
-                        <img src="images/Samo48/member/16.png" alt="member 16">
-                        <img src="images/Samo48/member/17.png" alt="member 17">
-                        <img src="images/Samo48/member/18.png" alt="member 18">
-                        <img src="images/Samo48/member/19.png" alt="member 19">
-                        <img src="images/Samo48/member/20.png" alt="member 20">
-                    </div>
-                    <button class="arrow right" onclick="moveSlide(1)">&#8250;</button>
-                </div>
             </div>
 
-<div class="vote">
-                <div class="col-sm-4 portfolio-item branded logos">
-                    <div class="portfolio-wrapper">
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb logo-image">
-                            <i class="fa fa-circle-o" id="check-candidate-1" style="position: absolute; right: -160px; bottom: -120px;  height: auto; font-size: 220px;"></i>
-                                <img href="#" id="btn-vote-1" src="images\Samo48\vote\1.png" class="img-responsive"
-                                    alt="">
-                            </div>
-                        </div>
-                        <div class="portfolio-info text-center">
+            <div class="slider-container">
+                <button class="arrow left" onclick="moveSlide(-1)">&#8249;</button>
+                <div class="slider" id="slider">
+                    <img src="images/Samo48/member/1.png" alt="member 1">
+                    <img src="images/Samo48/member/2.png" alt="member 2">
+                    <img src="images/Samo48/member/3.png" alt="member 3">
+                    <img src="images/Samo48/member/4.png" alt="member 4">
+                    <img src="images/Samo48/member/5.png" alt="member 5">
+                    <img src="images/Samo48/member/6.png" alt="member 6">
+                    <img src="images/Samo48/member/7.png" alt="member 7">
+                    <img src="images/Samo48/member/8.jpg" alt="member 8">
+                    <img src="images/Samo48/member/9.png" alt="member 9">
+                    <img src="images/Samo48/member/10.png" alt="member 10">
+                    <img src="images/Samo48/member/11.png" alt="member 11">
+                    <img src="images/Samo48/member/12.png" alt="member 12">
+                    <img src="images/Samo48/member/13.jpg" alt="member 13">
+                    <img src="images/Samo48/member/14.jpg" alt="member 14">
+                    <img src="images/Samo48/member/15.png" alt="member 15">
+                    <img src="images/Samo48/member/16.png" alt="member 16">
+                    <img src="images/Samo48/member/17.png" alt="member 17">
+                    <img src="images/Samo48/member/18.png" alt="member 18">
+                    <img src="images/Samo48/member/19.png" alt="member 19">
+                    <img src="images/Samo48/member/20.png" alt="member 20">
+                </div>
+                <button class="arrow right" onclick="moveSlide(1)">&#8250;</button>
+            </div>
+        </div>
 
+        <div class="vote">
+            <div class="col-sm-4 portfolio-item branded logos">
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-single">
+                        <div class="portfolio-thumb logo-image">
+                            <i class="fa fa-circle-o" id="check-candidate-1"
+                                style="position: absolute; right: -160px; bottom: -120px;  height: auto; font-size: 220px;"></i>
+                            <img href="#" id="btn-vote-1" src="images\Samo48\vote\1.png" class="img-responsive" alt="">
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 portfolio-item mockup folio">
-                    <div class="portfolio-wrapper">
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb logo-image">
-                            <i class="fa fa-circle-o" id="check-candidate-2" style="position: absolute; right: -160px; bottom: -120px;  height: auto; font-size: 220px;"></i>
-                                <img href="#" src="images\Samo48\vote\2.png" class="img-responsive" id="btn-vote-2"
-                                    alt="">
-                            </div>
-                        </div>
-                        <div class="portfolio-info text-center">
+                    <div class="portfolio-info text-center">
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 portfolio-item mockup folio">
-                    <div class="portfolio-wrapper">
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb logo-image">
-                            <i class="fa fa-circle-o" id="check-candidate-3" style="position: absolute; right: -160px; bottom: -120px;  height: auto; font-size: 220px;"></i>
-                                <img href="#" src="images\Samo48\vote\3.png" class="img-responsive" id="select-none"
-                                    alt="">
-                            </div>
-                        </div>
-                        <div class="portfolio-info text-center">
-
-                        </div>
                     </div>
                 </div>
             </div>
-        
+            <div class="col-sm-4 portfolio-item mockup folio">
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-single">
+                        <div class="portfolio-thumb logo-image">
+                            <i class="fa fa-circle-o" id="check-candidate-2"
+                                style="position: absolute; right: -160px; bottom: -120px;  height: auto; font-size: 220px;"></i>
+                            <img href="#" src="images\Samo48\vote\2.png" class="img-responsive" id="btn-vote-2" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio-info text-center">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 portfolio-item mockup folio">
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-single">
+                        <div class="portfolio-thumb logo-image">
+                            <i class="fa fa-circle-o" id="check-candidate-3"
+                                style="position: absolute; right: -160px; bottom: -120px;  height: auto; font-size: 220px;"></i>
+                            <img href="#" src="images\Samo48\vote\3.png" class="img-responsive" id="select-none" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio-info text-center">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
         </div>
         </div>
     </section>
@@ -326,7 +360,8 @@ if (!isset($_SESSION['std_id'])) {
             <div class="row">
                 <div class="col-sm-4"></div>
                 <div class="col-sm-4 text-center">
-                    <form id="submit-vote-form" name="submit-vote-form" method="post" action="vote_op.php">
+                    <form id="submit-vote-form" name="submit-vote-form" method="post" action="vote_op.php"
+                        onSubmit="return confirm('ยืนยันการลงคะแนนใช่หรือไม่') ">
                         <input type="hidden" id="txt-vote" name="txt-vote">
                         <div class="form-group">
                             <input type="submit" name="submit" class="btn btn-submit" value="ยืนยันการลงคะแนน">
