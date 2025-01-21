@@ -309,7 +309,7 @@ if (!isset($_SESSION['std_id'])) {
                 <div class="portfolio-wrapper">
                     <div class="portfolio-single">
                         <div class="portfolio-thumb logo-image">
-                            <img id="btn-vote-1" src="images/Samo48/vote/1.png" class="img-responsive" alt=""
+                            <img id="btn-vote-1-new" src="images/Samo48/vote/1.png" class="img-responsive" alt=""
                                 onclick="toggleImage(this, 'images/Samo48/vote/1.png', 'images/Samo48/vote/1.2.png', '1')">
                         </div>
                     </div>
@@ -321,7 +321,7 @@ if (!isset($_SESSION['std_id'])) {
                 <div class="portfolio-wrapper">
                     <div class="portfolio-single">
                         <div class="portfolio-thumb logo-image">
-                            <img id="btn-vote-2" src="images/Samo48/vote/2.png" class="img-responsive" alt=""
+                            <img id="btn-vote-2-new" src="images/Samo48/vote/2.png" class="img-responsive" alt=""
                                 onclick="toggleImage(this, 'images/Samo48/vote/2.png', 'images/Samo48/vote/2.2.png', '2')">
                         </div>
                     </div>
@@ -334,7 +334,7 @@ if (!isset($_SESSION['std_id'])) {
                 <div class="portfolio-wrapper">
                     <div class="portfolio-single">
                         <div class="portfolio-thumb logo-image">
-                            <img id="btn-vote-3" src="images/Samo48/vote/3.png" class="img-responsive" alt=""
+                            <img id="btn-vote-3-new" src="images/Samo48/vote/3.png" class="img-responsive" alt=""
                                 onclick="toggleImage(this, 'images/Samo48/vote/3.png', 'images/Samo48/vote/3.2.png', '3')">
                         </div>
                     </div>
@@ -350,7 +350,7 @@ if (!isset($_SESSION['std_id'])) {
             function toggleImage(element, defaultSrc, selectedSrc, voteId) {
                 const submitButton = document.querySelector(".btn-submit");
                 const txtVoteInput = document.getElementById("txt-vote");
-               
+
                 // หากคลิกซ้ำที่รูปภาพเดิม -> ยกเลิกการเลือก
                 if (element.src.indexOf(selectedSrc) > -1) {
                     element.src = defaultSrc; // กลับไปยังรูปเดิม
@@ -434,7 +434,7 @@ if (!isset($_SESSION['std_id'])) {
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script>
-            var myVar = setInterval(function () {
+            var myVar = setInterval(function() {
                 myTimer();
             }, 1000);
 
@@ -444,28 +444,28 @@ if (!isset($_SESSION['std_id'])) {
             }
         </script>
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("");
                 $('input[type="submit"]').prop("disabled", true);
             });
-            $("#btn-vote-1").click(function () {
+            $("#btn-vote-1").click(function() {
                 $('#check-candidate-1').show();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("1");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $("#btn-vote-2").click(function () {
+            $("#btn-vote-2").click(function() {
                 $('#check-candidate-2').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("2");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $('#select-none').click(function () {
+            $('#select-none').click(function() {
                 $('#check-candidate-3').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
@@ -486,15 +486,14 @@ if (!isset($_SESSION['std_id'])) {
 
                 // ตรวจสอบขอบเขต (loop ถ้าต้องการ)
                 if (currentIndex < 0) {
-                    currentIndex = 0;  // หยุดที่รูปแรก
+                    currentIndex = 0; // หยุดที่รูปแรก
                 } else if (currentIndex >= totalImages) {
-                    currentIndex = totalImages - 1;  // หยุดที่รูปสุดท้าย
+                    currentIndex = totalImages - 1; // หยุดที่รูปสุดท้าย
                 }
 
                 // อัปเดตการเลื่อน
                 slider.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
             }
-
         </script>
 </body>
 
