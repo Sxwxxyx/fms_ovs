@@ -53,9 +53,9 @@ if (!isset($_SESSION['std_id'])) {
                         <span class="icon-bar"></span>
                     </button>
 
-                    <!-- <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="index.php">
                         <h1><img src="images/logo_fms1.png" alt="logo"></h1>
-                    </a> -->
+                    </a>
 
                 </div>
                 <div class="collapse navbar-collapse">
@@ -73,34 +73,43 @@ if (!isset($_SESSION['std_id'])) {
         </div>
     </header>
     <!--/#header-->
-    <div class="logo-image padding-top">
+
+    <!-- <div class="logo-image padding-top">
         <a href="index.php"><img class="img-responsive" src="images/logo_fms.png" alt=""> </a>
-    </div>
+    </div> -->
     <section id="coming-soon">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                     <div class="text-center coming-content">
                         <h1>ขอบคุณสำหรับการลงคะแนน<br>Thank You for Your Vote</h1>
-                        <!-- <h3 class="text-thank">สามารถติดตามผลการลงคะแนนได้ที่ <a href="vote-result.php" class="btn btn-common">ผลการเลือกตั้ง</a></h3> -->
-                        <h3 class="text-thank">กรุณาตอบแบบประเมินเพื่อการปรับปรุงรูปแบบกิจกรรมและโครงการต่อไปในอนาคต
-                            <br><br>
-                            <div>
-                                <!-- <button class="btn btn-common" onclick="window.location.href='https://docs.google.com/forms/d/1dlTD34nwO3Y4YcLfe-Yo_6WB8r7_7tn4iEDRuObrFPg/edit';" target="_blank">ทำแบบประเมินโครงการเลือกตั้งคณะกรรมการบริหารสโมสรนักศึกษา ประจำปีการศึกษา 2562</button></h3>  -->
-                                <!-- <button class="btn btn-common" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScjNeAXZQnvyiGktObXWZrScQBLj3LLPSWS-sVbd_2urZECCw/viewform;'" target="_blank">ทำแบบประเมินโครงการเลือกตั้งคณะกรรมการบริหารสโมสรนักศึกษา ประจำปีการศึกษา 2565</button></h3>  -->
-                                <!-- <button class="btn btn-common" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScIDGEbHyMFW-6RrAwaaBaKiDipa_905EWmn8WdUL2ka31Cig/viewform';" target="_blank">ทำแบบประเมินโครงการเลือกตั้งคณะกรรมการบริหารสโมสรนักศึกษา ประจำปีการศึกษา 2567</button></h3>  -->
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTGN8VnAQGkIH7RzAJDHADIGXbNH0Tuvdn2gJMLeY-V_NbKg/viewform?fbclid=IwY2xjawH67SlleHRuA2FlbQIxMAABHaqdEN61ylFKdsEpXv1BR3xCmvzlS9sxtJgSRL5808gBFUz60JhzpCsb-w_aem_QIs08W2RpKs53lDU08dO4g" class="btn btn-common" target="_blank">ทำแบบประเมินโครงการเลือกตั้งคณะกรรมการบริหารสโมสรนักศึกษา
-                                ประจำปีการศึกษา 2568</a>
-                                <!-- <button class="btn btn-common"
-                                    onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdTGN8VnAQGkIH7RzAJDHADIGXbNH0Tuvdn2gJMLeY-V_NbKg/viewform?fbclid=IwY2xjawH67SlleHRuA2FlbQIxMAABHaqdEN61ylFKdsEpXv1BR3xCmvzlS9sxtJgSRL5808gBFUz60JhzpCsb-w_aem_QIs08W2RpKs53lDU08dO4g';"
-                                    target="_blank">ทำแบบประเมินโครงการเลือกตั้งคณะกรรมการบริหารสโมสรนักศึกษา
-                                    ประจำปีการศึกษา 2568</button> -->
-                        </h3>
-                        <!--<h3 class="text-thank"><a href="index.php" class="btn btn-common">หน้าแรก</a></h3> -->
+                        <br><br>
+                        <h3 class="text-thank">
+                            กรุณาตอบแบบประเมินเพื่อการปรับปรุงรูปแบบกิจกรรมและโครงการต่อไปในอนาคต<h3>
+                                <div class="qr-img">
+                                    <!-- <h4>สแกน</h4> -->
+                                    <img src="images/Samo48/qr.jpg" alt="Qr" style="width: 170px;">
+                                </div>
+                                <div class="separator-container">
+                                    <hr class="separator-line">
+                                    <span class="text-thank">หรือ</span>
+                                </div>
+                                <br>
+                                <div>
+                                    <!-- <h4>คลิก</h4> -->
+                                    <!-- <button class="btn btn-common" onclick="window.location.href='https://docs.google.com/forms/d/1dlTD34nwO3Y4YcLfe-Yo_6WB8r7_7tn4iEDRuObrFPg/edit';" target="_blank">ทำแบบประเมินโครงการเลือกตั้งคณะกรรมการบริหารสโมสรนักศึกษา ประจำปีการศึกษา 2562</button></h3>  -->
+                                    <!-- <button class="btn btn-common" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScjNeAXZQnvyiGktObXWZrScQBLj3LLPSWS-sVbd_2urZECCw/viewform;'" target="_blank">ทำแบบประเมินโครงการเลือกตั้งคณะกรรมการบริหารสโมสรนักศึกษา ประจำปีการศึกษา 2565</button></h3>  -->
+                                    <!-- <button class="btn btn-common" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScIDGEbHyMFW-6RrAwaaBaKiDipa_905EWmn8WdUL2ka31Cig/viewform';" target="_blank">ทำแบบประเมินโครงการเลือกตั้งคณะกรรมการบริหารสโมสรนักศึกษา ประจำปีการศึกษา 2567</button></h3>  -->
+                                    <button class="btn btn-common"
+        onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdTGN8VnAQGkIH7RzAJDHADIGXbNH0Tuvdn2gJMLeY-V_NbKg/viewform?fbclid=IwY2xjawH67SlleHRuA2FlbQIxMAABHaqdEN61ylFKdsEpXv1BR3xCmvzlS9sxtJgSRL5808gBFUz60JhzpCsb-w_aem_QIs08W2RpKs53lDU08dO4g', '_blank');">
+    ทำแบบประเมินโครงการเลือกตั้งคณะกรรมการบริหารสโมสรนักศึกษา ประจำปีการศึกษา 2568
+</button>
+
+                            </h3>
+                            <!--<h3 class="text-thank"><a href="index.php" class="btn btn-common">หน้าแรก</a></h3> -->
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 

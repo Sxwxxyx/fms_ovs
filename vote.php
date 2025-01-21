@@ -21,6 +21,7 @@ if (!isset($_SESSION['std_id'])) {
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/all.css" rel="stylesheet">
+    
 
     <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
@@ -35,6 +36,11 @@ if (!isset($_SESSION['std_id'])) {
 
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
     <style>
         li,
         input,
@@ -193,9 +199,9 @@ if (!isset($_SESSION['std_id'])) {
         <div class="container">
             <div class="row" style="padding=20px">
                 <!-- name Samo -->
-                <h1
-                    style="background-color: #89287f; color: white; text-align: center; line-height: 1.5; padding: 10px; font-weight: bold;">
-                    The Unity of Concord</h1>
+                <h1 style="background-color: #89287f; color: white; text-align: center; line-height: 1.5; padding: 10px; font-weight: bold; font-family: 'Roboto Slab', serif;">
+        The Unity of Concord
+    </h1>
                 <div class="election" style="display: flex; justify-content: flex-start; gap: 30px;">
                     <!-- logo Samo -->
                     <img src="images\Samo48\logo.png" style="width: 450px; height: 450px; " class="img-responsive"
@@ -350,7 +356,7 @@ if (!isset($_SESSION['std_id'])) {
             function toggleImage(element, defaultSrc, selectedSrc, voteId) {
                 const submitButton = document.querySelector(".btn-submit");
                 const txtVoteInput = document.getElementById("txt-vote");
-
+               
                 // หากคลิกซ้ำที่รูปภาพเดิม -> ยกเลิกการเลือก
                 if (element.src.indexOf(selectedSrc) > -1) {
                     element.src = defaultSrc; // กลับไปยังรูปเดิม
@@ -386,11 +392,6 @@ if (!isset($_SESSION['std_id'])) {
                 transition: opacity 0.3s ease;
             }
 
-            /* ปุ่มที่ปิดใช้งาน */
-            .btn-submit:disabled {
-                background-color: #ccc;
-                cursor: not-allowed;
-            }
         </style>
 
         <section id="submit-vote">
@@ -434,7 +435,7 @@ if (!isset($_SESSION['std_id'])) {
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script>
-            var myVar = setInterval(function() {
+            var myVar = setInterval(function () {
                 myTimer();
             }, 1000);
 
@@ -444,28 +445,28 @@ if (!isset($_SESSION['std_id'])) {
             }
         </script>
         <script>
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("");
                 $('input[type="submit"]').prop("disabled", true);
             });
-            $("#btn-vote-1").click(function() {
+            $("#btn-vote-1").click(function () {
                 $('#check-candidate-1').show();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("1");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $("#btn-vote-2").click(function() {
+            $("#btn-vote-2").click(function () {
                 $('#check-candidate-2').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("2");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $('#select-none').click(function() {
+            $('#select-none').click(function () {
                 $('#check-candidate-3').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
@@ -486,14 +487,15 @@ if (!isset($_SESSION['std_id'])) {
 
                 // ตรวจสอบขอบเขต (loop ถ้าต้องการ)
                 if (currentIndex < 0) {
-                    currentIndex = 0; // หยุดที่รูปแรก
+                    currentIndex = 0;  // หยุดที่รูปแรก
                 } else if (currentIndex >= totalImages) {
-                    currentIndex = totalImages - 1; // หยุดที่รูปสุดท้าย
+                    currentIndex = totalImages - 1;  // หยุดที่รูปสุดท้าย
                 }
 
                 // อัปเดตการเลื่อน
                 slider.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
             }
+
         </script>
 </body>
 
