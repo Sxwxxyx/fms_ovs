@@ -87,12 +87,12 @@ $show_result = $setting->read_show_result();
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="index.php">หน้าแรก</a></li>
                         <!--<?php
-                        if ($show_result) {
-                            echo "<li><a href='vote-result.php'>ผลการลงคะแนนเสียง</a></li>";
-                        }
-                        ?>-->
+                            if ($show_result) {
+                                echo "<li><a href='vote-result.php'>ผลการลงคะแนนเสียง</a></li>";
+                            }
+                            ?>-->
                         <!--<?php
-                        if ($vote_status) { ?>
+                            if ($vote_status) { ?>
                             <li><a href='sign-in.html'>เข้าสู่ระบบ</a></li>
                         <?php } else { ?> 
                             <li><a href='admin/sign-in_admin.html'>Admin</a></li>
@@ -103,7 +103,7 @@ $show_result = $setting->read_show_result();
                             <li><a href="vote.php">ลงคะแนนโหวต</a></li>
                             <li class="dropdown"><a><?php echo $_SESSION['std_id']; ?> <i class="fas fa-angle-down"></i></a>
                                 <ul role="menu" class="sub-menu">
-                                    <li><a href="php/sign-out.php" >Sign Out</a></li>
+                                    <li><a href="php/sign-out.php">Sign Out</a></li>
                                 </ul>
                             </li>
                         <?php } elseif (isset($_SESSION['admin_std_id'])) { ?>
@@ -124,7 +124,7 @@ $show_result = $setting->read_show_result();
                         <?php } elseif ($vote_status) { ?>
                             <li><a href='sign-sin.html' style="background-color: #000000; color: #fff; border: 1px solid #000000; border-radius: 10px; font-weight: 300; padding: 10px 25px;;">เข้าสู่ระบบ</a></li>
                         <?php } else { ?>
-                            <li><a href='admin/sign-in_admin.html' >Admin</a></li>
+                            <li><a href='admin/sign-in_admin.html'>Admin</a></li>
                         <?php }
                         ?>
                     </ul>
@@ -138,7 +138,7 @@ $show_result = $setting->read_show_result();
         <div class="container">
             <div class="row">
                 <div class="main-slider">
-                    <img src="./images/Samo48/48.PNG" width="50%;" class="slider-sun" alt="slider image">
+                    <img src="./images/Samo48/48.png" width="50%;" class="slider-sun" alt="slider image">
                     <div class="slide-text">
                         <h1>โครงการเลือกตั้ง<br>คณะกรรมการบริหารสโมสรนักศึกษาคณะวิทยาการจัดการ</h1>
                         <p class="text-desc">ประจำปีการศึกษา 2568<br>
@@ -150,12 +150,12 @@ $show_result = $setting->read_show_result();
                             <!-- เหลือเวลาลงคะแนนโหวต 8.00 ชม. -->
                         </h3>
                         <!--<?php
-                        if ($vote_status) {
-                            echo "<a href='sign-in.html' class='btn btn-common2'>เข้าสู่ระบบ / Sign In</a>";
-                        } else {
-                            echo "<a href='sign-in.html' class='btn btn-common2' disabled>เข้าสู่ระบบ / Sign In</a>";
-                        }
-                        ?>-->
+                            if ($vote_status) {
+                                echo "<a href='sign-in.html' class='btn btn-common2'>เข้าสู่ระบบ / Sign In</a>";
+                            } else {
+                                echo "<a href='sign-in.html' class='btn btn-common2' disabled>เข้าสู่ระบบ / Sign In</a>";
+                            }
+                            ?>-->
                         <?php
                         if (isset($_SESSION['std_id'])) { ?>
 
@@ -168,13 +168,13 @@ $show_result = $setting->read_show_result();
                         <?php }
                         ?>
                     </div>
-                     
 
-                    
-                    <img src="images\8.png" class="slider-hill" alt="slider image"> 
-                    
+
+
+                    <img src="images\8.png" class="slider-hill" alt="slider image">
+
                     <img src="images\9.png" class="Mord" style="position: absolute; right: -160px; bottom: 340px; width: 300px; height: auto;" alt="Mord image">
-                    
+
                     <img src="images\รับรอง.png" class="Mord" style="position: absolute; right: 900px; bottom: 400px; width: 200px; height: auto;" alt="Mord image">
 
 
@@ -300,7 +300,7 @@ $show_result = $setting->read_show_result();
         // get number of voters by major
         var major_count = <?php echo $voter->votercountbymajor(); ?>;
         var mcount = [];
-        var major_name_n = [];          // display major(s) having data only
+        var major_name_n = []; // display major(s) having data only
         var pos = 0
         for (var i in major_count) {
             pos = major_id.indexOf(major_count[i].major_id);
@@ -426,7 +426,7 @@ $show_result = $setting->read_show_result();
         });
     </script>
     <script>
-        var myVar = setInterval(function () {
+        var myVar = setInterval(function() {
             myTimer();
         }, 1000);
 
