@@ -21,7 +21,7 @@ if (!isset($_SESSION['std_id'])) {
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/all.css" rel="stylesheet">
-    
+
 
     <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
@@ -200,86 +200,92 @@ if (!isset($_SESSION['std_id'])) {
             <div class="row" style="padding=20px">
                 <!-- name Samo -->
                 <h1 style="background-color: #89287f; color: white; text-align: center; line-height: 1.5; padding: 10px; font-weight: bold; font-family: 'Roboto Slab', serif;">
-        The Unity of Concord
-    </h1>
-                <div class="election" style="display: flex; justify-content: flex-start; gap: 30px;">
-                    <!-- logo Samo -->
-                    <img src="images\Samo48\logo.png" style="width: 450px; height: 450px; " class="img-responsive"
-                        alt="logo">
-                    <div class="text-box">
-                        <!-- Dailog ข้อมูลพรรค -->
-                        <div class="modal-body" style="padding-left = 10px">
-                            <div align="left">
-                                <label style="font-size: 18px;">ความหมายสัญลักษณ์</label>
-                                <div class="scrollable-box">
-                                    <p style="font-weight: bold;">The Unity of Concord</p>
-                                    <p>The Unity of Concord &nbsp;:&nbsp;
-                                        สะท้อนถึงความสำคัญของการรวมตัวเป็นหนึ่งเดียวกันในหมู่คณะเพื่อสร้างความร่วมมือที่มีประสิทธิภาพในการดำเนินกิจกรรมหรือโครงการต่างๆ
-                                        เพื่อประโยชน์ส่วนรวม</p>
-                                    Unity คือความสามัคคี
-                                    ซึ่งหมายถึงความสัมพันธ์ที่ทุกคนในหมู่คณะมีเป้าหมายร่วมกันเพื่อประโยชน์ส่วนรวมและเป็นการรวมตัวของบุคคลที่มีความหลากหลาย
-                                    แต่สามารถทำงานร่วมกันเพื่อบรรลุเป้าหมายที่วางไว้
-                                    ซึ่งความสามัคคีเป็นรากฐานสำคัญของการสร้างความสำเร็จในงานต่างๆ</p>
-                                    <p>The Unity of Concord แสดงให้เห็นถึงความเป็นเอกภาพ ความร่วมมือ
-                                        และความสัมพันธ์อันดีในหมู่คณะโดยส่งเสริมบรรยากาศการทำงาน
-                                        สร้างสังคมแห่งการเรียนรู้ และพัฒนาเพื่อบรรลุเป้าหมายร่วมกัน ดังนั้น The Unity of
-                                        Concord
-                                        จึงเป็นหลักการพื้นฐานที่จะช่วยสร้างความสัมพันธ์อันดีและความสำเร็จในทุกด้านตัวเรือนั้นเกิดจากการผสมผสานระหว่างตัวอักษร
-                                        F M และ S โดย </p>
-                                    <p>F&nbsp;:&nbsp;ส่วนใบเรือจรดท้องเรือ ซึ่งใบเรือมีหน้าที่
-                                        โดยอุ้มลมเพื่อขับเคลื่อนและนำพาเรือไปข้างหน้า
-                                        เปรียบเสมือนพลังที่จะนำพาคณะวิทยาการจัดการไปข้างหน้าจนกระทั่งถึงจุดหมาย </p>
-                                    <p>M&nbsp;:&nbsp;โครงสร้างกลางเรือ ซึ่งเป็นหัวใจสำคัญที่จะช่วยค้ำจุนเรือไว้
-                                        เปรียบเสมือนความตั้งใจและมุ่งมั่นที่จะช่วยให้สมาชิกทุกคนยืนหยัดและก้าวไกลไปพร้อมกันด้วยความสามัคคี
-                                    </p>
-                                    <p>S&nbsp;:&nbsp;หัวสิงห์ สิงห์มักถูกใช้เป็นสัญลักษณ์ ของความเป็นผู้นำ ความกล้าหาญ
-                                        และความแข็งแกร่ง โดยหัวสิงห์นั้นได้ชี้ไปยังทิศทางที่เรือกำลังมุ่งไปข้างหน้า
-                                        แสดงถึงวิสัยทัศน์และความเด็ดเดี่ยวที่พร้อมฟ่าฟันอุปสรรค ซึ่งดาว 9
-                                        ดวงเปรียบเสมือน 9
-                                        สาขาของคณะวิทยาการจัดการที่ลอยทำหน้าที่ส่องแสงชี้นำทางให้แก่สิงห์สำเภา
-                                        และเรือสีม่วงแสดงให้เห็นถึงจิตวิญญาณของคณะวิทยาการจัดการที่มีความมั่นคง
-                                        แข็งแกร่ง พร้อมเผชิญกับสถานการณ์ทุกรูปแบบ</p>
+                    The Unity of Concord
+                </h1>
+                <div class="container">
+                    <div class="row">
+                        <!-- First Column: Logo -->
+                        <div class="col-12 col-md-6">
+                            <img src="images/Samo48/logo.png" style="width: 450px; height: 450px;" class="img-fluid" alt="logo">
+                        </div>
 
-                                    <label style="font-size: 18px;">วิสัยทัศน์ของพรรค</label>
-                                    <div style="font-size: 16px;">
-                                        <p>สร้างสรรค์สิ่งใหม่บนรากฐานความหลากหลายที่มีเอกลักษณ์แตกต่างกันเพื่อก้าวสู่ความสำเร็จอย่างยั่งยืน
-                                        </p>
+                        <!-- Second Column: Text Content -->
+                        <div class="col-12 col-md-6">
+                            <div class="text-box">
+                                <!-- Dailog ข้อมูลพรรค -->
+                                <div class="modal-body" style="padding-left: 10px;">
+                                    <div align="left">
+                                        <label style="font-size: 18px;">ความหมายสัญลักษณ์</label>
+                                        <div class="scrollable-box">
+                                            <p style="font-weight: bold;">The Unity of Concord</p>
+                                            <p>The Unity of Concord &nbsp;:&nbsp;
+                                                สะท้อนถึงความสำคัญของการรวมตัวเป็นหนึ่งเดียวกันในหมู่คณะเพื่อสร้างความร่วมมือที่มีประสิทธิภาพในการดำเนินกิจกรรมหรือโครงการต่างๆ
+                                                เพื่อประโยชน์ส่วนรวม</p>
+                                            Unity คือความสามัคคี
+                                            ซึ่งหมายถึงความสัมพันธ์ที่ทุกคนในหมู่คณะมีเป้าหมายร่วมกันเพื่อประโยชน์ส่วนรวมและเป็นการรวมตัวของบุคคลที่มีความหลากหลาย
+                                            แต่สามารถทำงานร่วมกันเพื่อบรรลุเป้าหมายที่วางไว้
+                                            ซึ่งความสามัคคีเป็นรากฐานสำคัญของการสร้างความสำเร็จในงานต่างๆ</p>
+                                            <p>The Unity of Concord แสดงให้เห็นถึงความเป็นเอกภาพ ความร่วมมือ
+                                                และความสัมพันธ์อันดีในหมู่คณะโดยส่งเสริมบรรยากาศการทำงาน
+                                                สร้างสังคมแห่งการเรียนรู้ และพัฒนาเพื่อบรรลุเป้าหมายร่วมกัน ดังนั้น The Unity of
+                                                Concord
+                                                จึงเป็นหลักการพื้นฐานที่จะช่วยสร้างความสัมพันธ์อันดีและความสำเร็จในทุกด้านตัวเรือนั้นเกิดจากการผสมผสานระหว่างตัวอักษร
+                                                F M และ S โดย </p>
+                                            <p>F&nbsp;:&nbsp;ส่วนใบเรือจรดท้องเรือ ซึ่งใบเรือมีหน้าที่
+                                                โดยอุ้มลมเพื่อขับเคลื่อนและนำพาเรือไปข้างหน้า
+                                                เปรียบเสมือนพลังที่จะนำพาคณะวิทยาการจัดการไปข้างหน้าจนกระทั่งถึงจุดหมาย </p>
+                                            <p>M&nbsp;:&nbsp;โครงสร้างกลางเรือ ซึ่งเป็นหัวใจสำคัญที่จะช่วยค้ำจุนเรือไว้
+                                                เปรียบเสมือนความตั้งใจและมุ่งมั่นที่จะช่วยให้สมาชิกทุกคนยืนหยัดและก้าวไกลไปพร้อมกันด้วยความสามัคคี
+                                            </p>
+                                            <p>S&nbsp;:&nbsp;หัวสิงห์ สิงห์มักถูกใช้เป็นสัญลักษณ์ ของความเป็นผู้นำ ความกล้าหาญ
+                                                และความแข็งแกร่ง โดยหัวสิงห์นั้นได้ชี้ไปยังทิศทางที่เรือกำลังมุ่งไปข้างหน้า
+                                                แสดงถึงวิสัยทัศน์และความเด็ดเดี่ยวที่พร้อมฟ่าฟันอุปสรรค ซึ่งดาว 9
+                                                ดวงเปรียบเสมือน 9
+                                                สาขาของคณะวิทยาการจัดการที่ลอยทำหน้าที่ส่องแสงชี้นำทางให้แก่สิงห์สำเภา
+                                                และเรือสีม่วงแสดงให้เห็นถึงจิตวิญญาณของคณะวิทยาการจัดการที่มีความมั่นคง
+                                                แข็งแกร่ง พร้อมเผชิญกับสถานการณ์ทุกรูปแบบ</p>
+
+                                            <label style="font-size: 18px;">วิสัยทัศน์ของพรรค</label>
+                                            <div style="font-size: 16px;">
+                                                <p>สร้างสรรค์สิ่งใหม่บนรากฐานความหลากหลายที่มีเอกลักษณ์แตกต่างกันเพื่อก้าวสู่ความสำเร็จอย่างยั่งยืน
+                                                </p>
+                                            </div>
+
+                                            <label style="font-size: 18px;">พันธกิจของพรรค</label>
+                                            <div style="font-size: 16px;">
+                                                <p>1.
+                                                    บูรณาการเสริมสร้างองค์ความรู้และพัฒนาเพื่อยกระดับทักษะด้านวิชาชีพรวมถึงกิจกรรมต่างๆ
+                                                </p>
+                                                <p>2.
+                                                    มุ่งเน้นการสร้างสังคมที่มีความเป็นหนึ่งเดียวจากความหลากหลายและการเคารพสิทธิเพื่อการอยู่ร่วมกันอย่างสันติ
+                                                </p>
+                                                <p>3.
+                                                    เปิดโอกาสในการแสดงศักยภาพและความสามารถในทุกด้านเพื่อพัฒนาทรัพยากรบุคคลให้เกิดประโยชน์สูงสุด
+                                                </p>
+                                            </div>
+
+                                            <label style="font-size: 18px;">นโยบายของพรรค</label>
+                                            <div style="font-size: 16px;">
+                                                <p>1.
+                                                    ยกระดับโครงการเดิมและพัฒนาโครงการใหม่เพื่อปรับเปลี่ยนรูปแบบและแนวคิดให้ทีความเหมาะสมกับยุคสมัยมากยิ่งขึ้น
+                                                </p>
+                                                <p>2.
+                                                    สร้างเครือข่ายชุมชนและองค์กรที่มุ่งเน้นความหลากหลายและการอยู่ร่วมกันอย่างสันติจัดกิจกรรมเสริมสร้างความเข้าใจในวัฒนธรรมที่หลากหลาย
+                                                </p>
+                                                <p>3. ส่งเสริมกิจกรรมด้านกีฬาเพื่อเสริมสร้างสุขภาพและสร้างความสัมพันธ์ภายในคณะ
+                                                </p>
+                                                <p>4.
+                                                    สร้างพื้นที่ในการแสดงความคิดเห็นและข้อเสนอแนะเพื่อนำมาพัฒนาโครงการให้เกิดประโยชน์สูงสุดแก่นักศึกษา
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-
-                                    <label style="font-size: 18px;">พันธกิจของพรรค</label>
-                                    <div style="font-size: 16px;">
-                                        <p>1.
-                                            บูรณาการเสริมสร้างองค์ความรู้และพัฒนาเพื่อยกระดับทักษะด้านวิชาชีพรวมถึงกิจกรรมต่างๆ
-                                        </p>
-                                        <p>2.
-                                            มุ่งเน้นการสร้างสังคมที่มีความเป็นหนึ่งเดียวจากความหลากหลายและการเคารพสิทธิเพื่อการอยู่ร่วมกันอย่างสันติ
-                                        </p>
-                                        <p>3.
-                                            เปิดโอกาสในการแสดงศักยภาพและความสามารถในทุกด้านเพื่อพัฒนาทรัพยากรบุคคลให้เกิดประโยชน์สูงสุด
-                                        </p>
-                                    </div>
-
-                                    <label style="font-size: 18px;">นโยบายของพรรค</label>
-                                    <div style="font-size: 16px;">
-                                        <p>1.
-                                            ยกระดับโครงการเดิมและพัฒนาโครงการใหม่เพื่อปรับเปลี่ยนรูปแบบและแนวคิดให้ทีความเหมาะสมกับยุคสมัยมากยิ่งขึ้น
-                                        </p>
-                                        <p>2.
-                                            สร้างเครือข่ายชุมชนและองค์กรที่มุ่งเน้นความหลากหลายและการอยู่ร่วมกันอย่างสันติจัดกิจกรรมเสริมสร้างความเข้าใจในวัฒนธรรมที่หลากหลาย
-                                        </p>
-                                        <p>3. ส่งเสริมกิจกรรมด้านกีฬาเพื่อเสริมสร้างสุขภาพและสร้างความสัมพันธ์ภายในคณะ
-                                        </p>
-                                        <p>4.
-                                            สร้างพื้นที่ในการแสดงความคิดเห็นและข้อเสนอแนะเพื่อนำมาพัฒนาโครงการให้เกิดประโยชน์สูงสุดแก่นักศึกษา
-                                        </p>
-                                    </div>
-
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <div class="slider-container">
@@ -356,7 +362,7 @@ if (!isset($_SESSION['std_id'])) {
             function toggleImage(element, defaultSrc, selectedSrc, voteId) {
                 const submitButton = document.querySelector(".btn-submit");
                 const txtVoteInput = document.getElementById("txt-vote");
-               
+
                 // หากคลิกซ้ำที่รูปภาพเดิม -> ยกเลิกการเลือก
                 if (element.src.indexOf(selectedSrc) > -1) {
                     element.src = defaultSrc; // กลับไปยังรูปเดิม
@@ -391,7 +397,6 @@ if (!isset($_SESSION['std_id'])) {
                 cursor: pointer;
                 transition: opacity 0.3s ease;
             }
-
         </style>
 
         <section id="submit-vote">
@@ -435,7 +440,7 @@ if (!isset($_SESSION['std_id'])) {
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script>
-            var myVar = setInterval(function () {
+            var myVar = setInterval(function() {
                 myTimer();
             }, 1000);
 
@@ -445,28 +450,28 @@ if (!isset($_SESSION['std_id'])) {
             }
         </script>
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("");
                 $('input[type="submit"]').prop("disabled", true);
             });
-            $("#btn-vote-1").click(function () {
+            $("#btn-vote-1").click(function() {
                 $('#check-candidate-1').show();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("1");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $("#btn-vote-2").click(function () {
+            $("#btn-vote-2").click(function() {
                 $('#check-candidate-2').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("2");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $('#select-none').click(function () {
+            $('#select-none').click(function() {
                 $('#check-candidate-3').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
@@ -487,15 +492,14 @@ if (!isset($_SESSION['std_id'])) {
 
                 // ตรวจสอบขอบเขต (loop ถ้าต้องการ)
                 if (currentIndex < 0) {
-                    currentIndex = 0;  // หยุดที่รูปแรก
+                    currentIndex = 0; // หยุดที่รูปแรก
                 } else if (currentIndex >= totalImages) {
-                    currentIndex = totalImages - 1;  // หยุดที่รูปสุดท้าย
+                    currentIndex = totalImages - 1; // หยุดที่รูปสุดท้าย
                 }
 
                 // อัปเดตการเลื่อน
                 slider.style.transform = `translateX(-${currentIndex * imageWidth}px)`;
             }
-
         </script>
 </body>
 
