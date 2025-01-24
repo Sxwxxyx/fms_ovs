@@ -200,16 +200,24 @@ if (!isset($_SESSION['std_id'])) {
         <div class="container">
             <div class="row" style="padding=20px">
                 <!-- name Samo -->
+<<<<<<< HEAD
                 <h1
                     style="background-color: #89287f; color: white; text-align: center; line-height: 1.5; padding: 10px; font-weight: bold; font-family: 'Roboto Slab', serif;">
+=======
+                <h1 style="background-color: #89287f; color: white; text-align: center; line-height: 1.5; padding: 10px; font-weight: bold; font-family: 'Roboto Slab', serif;">
+>>>>>>> 6494091dcd0e21dad11b3d2b0e39d3a52dfac0ff
                     The Unity of Concord
                 </h1>
                 <div class="container">
                     <div class="row">
                         <!-- First Column: Logo -->
                         <div class="col-12 col-md-6">
+<<<<<<< HEAD
                             <img src="images/Samo48/logo.png" style="width: 450px; height: 450px;" class="img-fluid"
                                 alt="logo">
+=======
+                            <img src="images/Samo48/logo.png" style="width: 450px; height: 450px;" class="img-fluid" alt="logo">
+>>>>>>> 6494091dcd0e21dad11b3d2b0e39d3a52dfac0ff
                         </div>
 
                         <!-- Second Column: Text Content -->
@@ -220,14 +228,20 @@ if (!isset($_SESSION['std_id'])) {
                                     <div align="left">
                                         <label style="font-size: 18px;">ความหมายสัญลักษณ์</label>
                                         <div class="scrollable-box">
+<<<<<<< HEAD
                                             <p style="font-weight: bold;">The Unity Concord of FMS</p>
                                             <p>The Unity Concord of FMS &nbsp;:&nbsp;
+=======
+                                            <p style="font-weight: bold;">The Unity of Concord</p>
+                                            <p>The Unity of Concord &nbsp;:&nbsp;
+>>>>>>> 6494091dcd0e21dad11b3d2b0e39d3a52dfac0ff
                                                 สะท้อนถึงความสำคัญของการรวมตัวเป็นหนึ่งเดียวกันในหมู่คณะเพื่อสร้างความร่วมมือที่มีประสิทธิภาพในการดำเนินกิจกรรมหรือโครงการต่างๆ
                                                 เพื่อประโยชน์ส่วนรวม</p>
                                             Unity คือความสามัคคี
                                             ซึ่งหมายถึงความสัมพันธ์ที่ทุกคนในหมู่คณะมีเป้าหมายร่วมกันเพื่อประโยชน์ส่วนรวมและเป็นการรวมตัวของบุคคลที่มีความหลากหลาย
                                             แต่สามารถทำงานร่วมกันเพื่อบรรลุเป้าหมายที่วางไว้
                                             ซึ่งความสามัคคีเป็นรากฐานสำคัญของการสร้างความสำเร็จในงานต่างๆ</p>
+<<<<<<< HEAD
 
                                             <p>Concord คือความปรองดอง
                                                 ซึ่งเน้นไปที่การสร้างความสัมพันธ์ที่สงบสุขในหมู่คณะที่ทุกคนสามารถทำงานร่วมกันด้วยความเคารพให้เกียรติ
@@ -237,10 +251,16 @@ if (!isset($_SESSION['std_id'])) {
                                                 และความสัมพันธ์อันดีในหมู่คณะโดยส่งเสริมบรรยากาศการทำงาน
                                                 สร้างสังคมแห่งการเรียนรู้ และพัฒนาเพื่อบรรลุเป้าหมายร่วมกัน ดังนั้น The
                                                 Unity of
+=======
+                                            <p>The Unity of Concord แสดงให้เห็นถึงความเป็นเอกภาพ ความร่วมมือ
+                                                และความสัมพันธ์อันดีในหมู่คณะโดยส่งเสริมบรรยากาศการทำงาน
+                                                สร้างสังคมแห่งการเรียนรู้ และพัฒนาเพื่อบรรลุเป้าหมายร่วมกัน ดังนั้น The Unity of
+>>>>>>> 6494091dcd0e21dad11b3d2b0e39d3a52dfac0ff
                                                 Concord
                                                 จึงเป็นหลักการพื้นฐานที่จะช่วยสร้างความสัมพันธ์อันดีและความสำเร็จในทุกด้านตัวเรือนั้นเกิดจากการผสมผสานระหว่างตัวอักษร
                                                 F M และ S โดย </p>
                                             <p>F&nbsp;:&nbsp;ส่วนใบเรือจรดท้องเรือ ซึ่งใบเรือมีหน้าที่
+<<<<<<< HEAD
                                                 โอบอุ้มลมเพื่อขับเคลื่อนและนำพาเรือไปข้างหน้า
                                                 เปรียบเสมือนพลังที่จะนำพาคณะวิทยาการจัดการไปข้างหน้าจนกระทั่งถึงจุดหมาย
                                             </p>
@@ -251,6 +271,15 @@ if (!isset($_SESSION['std_id'])) {
                                                 ความกล้าหาญ
                                                 และความแข็งแกร่ง
                                                 โดยหัวสิงห์นั้นได้ชี้ไปยังทิศทางที่เรือกำลังมุ่งไปข้างหน้า
+=======
+                                                โดยอุ้มลมเพื่อขับเคลื่อนและนำพาเรือไปข้างหน้า
+                                                เปรียบเสมือนพลังที่จะนำพาคณะวิทยาการจัดการไปข้างหน้าจนกระทั่งถึงจุดหมาย </p>
+                                            <p>M&nbsp;:&nbsp;โครงสร้างกลางเรือ ซึ่งเป็นหัวใจสำคัญที่จะช่วยค้ำจุนเรือไว้
+                                                เปรียบเสมือนความตั้งใจและมุ่งมั่นที่จะช่วยให้สมาชิกทุกคนยืนหยัดและก้าวไกลไปพร้อมกันด้วยความสามัคคี
+                                            </p>
+                                            <p>S&nbsp;:&nbsp;หัวสิงห์ สิงห์มักถูกใช้เป็นสัญลักษณ์ ของความเป็นผู้นำ ความกล้าหาญ
+                                                และความแข็งแกร่ง โดยหัวสิงห์นั้นได้ชี้ไปยังทิศทางที่เรือกำลังมุ่งไปข้างหน้า
+>>>>>>> 6494091dcd0e21dad11b3d2b0e39d3a52dfac0ff
                                                 แสดงถึงวิสัยทัศน์และความเด็ดเดี่ยวที่พร้อมฟ่าฟันอุปสรรค ซึ่งดาว 9
                                                 ดวงเปรียบเสมือน 9
                                                 สาขาของคณะวิทยาการจัดการที่ลอยทำหน้าที่ส่องแสงชี้นำทางให้แก่สิงห์สำเภา
@@ -284,8 +313,12 @@ if (!isset($_SESSION['std_id'])) {
                                                 <p>2.
                                                     สร้างเครือข่ายชุมชนและองค์กรที่มุ่งเน้นความหลากหลายและการอยู่ร่วมกันอย่างสันติจัดกิจกรรมเสริมสร้างความเข้าใจในวัฒนธรรมที่หลากหลาย
                                                 </p>
+<<<<<<< HEAD
                                                 <p>3.
                                                     ส่งเสริมกิจกรรมด้านกีฬาเพื่อเสริมสร้างสุขภาพและสร้างความสัมพันธ์ภายในคณะ
+=======
+                                                <p>3. ส่งเสริมกิจกรรมด้านกีฬาเพื่อเสริมสร้างสุขภาพและสร้างความสัมพันธ์ภายในคณะ
+>>>>>>> 6494091dcd0e21dad11b3d2b0e39d3a52dfac0ff
                                                 </p>
                                                 <p>4.
                                                     สร้างพื้นที่ในการแสดงความคิดเห็นและข้อเสนอแนะเพื่อนำมาพัฒนาโครงการให้เกิดประโยชน์สูงสุดแก่นักศึกษา
@@ -453,7 +486,7 @@ if (!isset($_SESSION['std_id'])) {
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script>
-            var myVar = setInterval(function () {
+            var myVar = setInterval(function() {
                 myTimer();
             }, 1000);
 
@@ -463,28 +496,28 @@ if (!isset($_SESSION['std_id'])) {
             }
         </script>
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("");
                 $('input[type="submit"]').prop("disabled", true);
             });
-            $("#btn-vote-1").click(function () {
+            $("#btn-vote-1").click(function() {
                 $('#check-candidate-1').show();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("1");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $("#btn-vote-2").click(function () {
+            $("#btn-vote-2").click(function() {
                 $('#check-candidate-2').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("2");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $('#select-none').click(function () {
+            $('#select-none').click(function() {
                 $('#check-candidate-3').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
