@@ -272,7 +272,7 @@ $show_result = $setting->read_show_result();
             <div class="row">
                 <div class="col-sm-12">
                     <div class="copyright-text text-center">
-                        <p>&copy; <a href="https://www.fms.psu.ac.th/">FMS@PSU</a> 2020. All Rights Reserved.</p>
+                        <p>&copy; <a href="https://www.fms.psu.ac.th/">FMS@PSU</a> 2025. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
