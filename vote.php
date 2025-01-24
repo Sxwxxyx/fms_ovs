@@ -36,7 +36,8 @@ if (!isset($_SESSION['std_id'])) {
 
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap"
+        rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -199,14 +200,16 @@ if (!isset($_SESSION['std_id'])) {
         <div class="container">
             <div class="row" style="padding=20px">
                 <!-- name Samo -->
-                <h1 style="background-color: #89287f; color: white; text-align: center; line-height: 1.5; padding: 10px; font-weight: bold; font-family: 'Roboto Slab', serif;">
-                    The Unity of Concord
+                <h1
+                    style="background-color: #89287f; color: white; text-align: center; line-height: 1.5; padding: 10px; font-weight: bold; font-family: 'Roboto Slab', serif;">
+                    The Unity Concord of FMS
                 </h1>
                 <div class="container">
                     <div class="row">
                         <!-- First Column: Logo -->
                         <div class="col-12 col-md-6">
-                            <img src="images/Samo48/logo.png" style="width: 450px; height: 450px;" class="img-fluid" alt="logo">
+                            <img src="images/Samo48/logo.jpg" style="width: 450px; height: 450px;" class="img-fluid"
+                                alt="logo">
                         </div>
 
 
@@ -226,21 +229,27 @@ if (!isset($_SESSION['std_id'])) {
                                             ซึ่งหมายถึงความสัมพันธ์ที่ทุกคนในหมู่คณะมีเป้าหมายร่วมกันเพื่อประโยชน์ส่วนรวมและเป็นการรวมตัวของบุคคลที่มีความหลากหลาย
                                             แต่สามารถทำงานร่วมกันเพื่อบรรลุเป้าหมายที่วางไว้
                                             ซึ่งความสามัคคีเป็นรากฐานสำคัญของการสร้างความสำเร็จในงานต่างๆ</p>
-                                            <p>Concord คือความปรองดอง ซึ่งเน้นไปที่การสร้างความสัมพันธ์ที่สงบสุขในหมู่คณะที่ทุกคนสามารถทำงานร่วมกันด้วยความเคารพให้เกียรติ และประณีประนอมซึ่งกันและกัน</p>
+                                            <p>Concord คือความปรองดอง
+                                                ซึ่งเน้นไปที่การสร้างความสัมพันธ์ที่สงบสุขในหมู่คณะที่ทุกคนสามารถทำงานร่วมกันด้วยความเคารพให้เกียรติ
+                                                และประณีประนอมซึ่งกันและกัน</p>
                                             <p>The Unity of Concord แสดงให้เห็นถึงความเป็นเอกภาพ ความร่วมมือ
                                                 และความสัมพันธ์อันดีในหมู่คณะโดยส่งเสริมบรรยากาศการทำงาน
-                                                สร้างสังคมแห่งการเรียนรู้ และพัฒนาเพื่อบรรลุเป้าหมายร่วมกัน ดังนั้น The Unity of
+                                                สร้างสังคมแห่งการเรียนรู้ และพัฒนาเพื่อบรรลุเป้าหมายร่วมกัน ดังนั้น The
+                                                Unity of
                                                 Concord
                                                 จึงเป็นหลักการพื้นฐานที่จะช่วยสร้างความสัมพันธ์อันดีและความสำเร็จในทุกด้านตัวเรือนั้นเกิดจากการผสมผสานระหว่างตัวอักษร
                                                 F M และ S โดย </p>
                                             <p>F&nbsp;:&nbsp;ส่วนใบเรือจรดท้องเรือ ซึ่งใบเรือมีหน้าที่
                                                 โอบอุ้มลมเพื่อขับเคลื่อนและนำพาเรือไปข้างหน้า
-                                                เปรียบเสมือนพลังที่จะนำพาคณะวิทยาการจัดการไปข้างหน้าจนกระทั่งถึงจุดหมาย </p>
+                                                เปรียบเสมือนพลังที่จะนำพาคณะวิทยาการจัดการไปข้างหน้าจนกระทั่งถึงจุดหมาย
+                                            </p>
                                             <p>M&nbsp;:&nbsp;โครงสร้างกลางเรือ ซึ่งเป็นหัวใจสำคัญที่จะช่วยค้ำจุนเรือไว้
                                                 เปรียบเสมือนความตั้งใจและมุ่งมั่นที่จะช่วยให้สมาชิกทุกคนยืนหยัดและก้าวไกลไปพร้อมกันด้วยความสามัคคี
                                             </p>
-                                            <p>S&nbsp;:&nbsp;หัวสิงห์ สิงห์มักถูกใช้เป็นสัญลักษณ์ ของความเป็นผู้นำ ความกล้าหาญ
-                                                และความแข็งแกร่ง โดยหัวสิงห์นั้นได้ชี้ไปยังทิศทางที่เรือกำลังมุ่งไปข้างหน้า
+                                            <p>S&nbsp;:&nbsp;หัวสิงห์ สิงห์มักถูกใช้เป็นสัญลักษณ์ ของความเป็นผู้นำ
+                                                ความกล้าหาญ
+                                                และความแข็งแกร่ง
+                                                โดยหัวสิงห์นั้นได้ชี้ไปยังทิศทางที่เรือกำลังมุ่งไปข้างหน้า
                                                 แสดงถึงวิสัยทัศน์และความเด็ดเดี่ยวที่พร้อมฟ่าฟันอุปสรรค ซึ่งดาว 9
                                                 ดวงเปรียบเสมือน 9
                                                 สาขาของคณะวิทยาการจัดการที่ลอยทำหน้าที่ส่องแสงชี้นำทางให้แก่สิงห์สำเภา
@@ -274,7 +283,8 @@ if (!isset($_SESSION['std_id'])) {
                                                 <p>2.
                                                     สร้างเครือข่ายชุมชนและองค์กรที่มุ่งเน้นความหลากหลายและการอยู่ร่วมกันอย่างสันติจัดกิจกรรมเสริมสร้างความเข้าใจในวัฒนธรรมที่หลากหลาย
                                                 </p>
-                                                <p>3. ส่งเสริมกิจกรรมด้านกีฬาเพื่อเสริมสร้างสุขภาพและสร้างความสัมพันธ์ภายในคณะ
+                                                <p>3.
+                                                    ส่งเสริมกิจกรรมด้านกีฬาเพื่อเสริมสร้างสุขภาพและสร้างความสัมพันธ์ภายในคณะ
                                                 </p>
                                                 <p>4.
                                                     สร้างพื้นที่ในการแสดงความคิดเห็นและข้อเสนอแนะเพื่อนำมาพัฒนาโครงการให้เกิดประโยชน์สูงสุดแก่นักศึกษา
@@ -292,26 +302,26 @@ if (!isset($_SESSION['std_id'])) {
             <div class="slider-container">
                 <button class="arrow left" onclick="moveSlide(-1)">&#8249;</button>
                 <div class="slider" id="slider">
-                    <img src="images/Samo48/member/1.png" alt="member 1">
-                    <img src="images/Samo48/member/2.png" alt="member 2">
-                    <img src="images/Samo48/member/3.png" alt="member 3">
-                    <img src="images/Samo48/member/4.png" alt="member 4">
-                    <img src="images/Samo48/member/5.png" alt="member 5">
-                    <img src="images/Samo48/member/6.png" alt="member 6">
-                    <img src="images/Samo48/member/7.png" alt="member 7">
+                    <img src="images/Samo48/member/1.jpg" alt="member 1">
+                    <img src="images/Samo48/member/2.jpg" alt="member 2">
+                    <img src="images/Samo48/member/3.jpg" alt="member 3">
+                    <img src="images/Samo48/member/4.jpg" alt="member 4">
+                    <img src="images/Samo48/member/5.jpg" alt="member 5">
+                    <img src="images/Samo48/member/6.jpg" alt="member 6">
+                    <img src="images/Samo48/member/7.jpg" alt="member 7">
                     <img src="images/Samo48/member/8.jpg" alt="member 8">
-                    <img src="images/Samo48/member/9.png" alt="member 9">
-                    <img src="images/Samo48/member/10.png" alt="member 10">
-                    <img src="images/Samo48/member/11.png" alt="member 11">
-                    <img src="images/Samo48/member/12.png" alt="member 12">
+                    <img src="images/Samo48/member/9.jpg" alt="member 9">
+                    <img src="images/Samo48/member/10.jpg" alt="member 10">
+                    <img src="images/Samo48/member/11.jpg" alt="member 11">
+                    <img src="images/Samo48/member/12.jpg" alt="member 12">
                     <img src="images/Samo48/member/13.jpg" alt="member 13">
                     <img src="images/Samo48/member/14.jpg" alt="member 14">
-                    <img src="images/Samo48/member/15.png" alt="member 15">
-                    <img src="images/Samo48/member/16.png" alt="member 16">
-                    <img src="images/Samo48/member/17.png" alt="member 17">
-                    <img src="images/Samo48/member/18.png" alt="member 18">
-                    <img src="images/Samo48/member/19.png" alt="member 19">
-                    <img src="images/Samo48/member/20.png" alt="member 20">
+                    <img src="images/Samo48/member/15.jpg" alt="member 15">
+                    <img src="images/Samo48/member/16.jpg" alt="member 16">
+                    <img src="images/Samo48/member/17.jpg" alt="member 17">
+                    <img src="images/Samo48/member/18.jpg" alt="member 18">
+                    <img src="images/Samo48/member/19.jpg" alt="member 19">
+                    <img src="images/Samo48/member/20.jpg" alt="member 20">
                 </div>
                 <button class="arrow right" onclick="moveSlide(1)">&#8250;</button>
             </div>
@@ -441,7 +451,7 @@ if (!isset($_SESSION['std_id'])) {
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script>
-            var myVar = setInterval(function() {
+            var myVar = setInterval(function () {
                 myTimer();
             }, 1000);
 
@@ -451,28 +461,28 @@ if (!isset($_SESSION['std_id'])) {
             }
         </script>
         <script>
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("");
                 $('input[type="submit"]').prop("disabled", true);
             });
-            $("#btn-vote-1").click(function() {
+            $("#btn-vote-1").click(function () {
                 $('#check-candidate-1').show();
                 $('#check-candidate-2').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("1");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $("#btn-vote-2").click(function() {
+            $("#btn-vote-2").click(function () {
                 $('#check-candidate-2').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-3').hide();
                 $('#txt-vote').val("2");
                 $('input[type="submit"]').prop("disabled", false);
             });
-            $('#select-none').click(function() {
+            $('#select-none').click(function () {
                 $('#check-candidate-3').show();
                 $('#check-candidate-1').hide();
                 $('#check-candidate-2').hide();
